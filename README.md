@@ -1,6 +1,9 @@
-# MSc Network & InfoSec | FHE • PIR • PETs • Blockchain | Ex-GenAI full-stack | Snowboard enjoyer
+# Applied Cryptography Researcher | Full-Stack Dev
 
-#### Technical Skills: Python, TypeScript, FastAPI, Langchain, AsyncIO, SQL/NoSQL, Nginx, Docker, CI/CD, Git
+#### MSc candidate in Network & Information Security (CQUPT).
+#### Research focus: privacy-enhancing technologies — FHE, PIR, and blockchain systems.
+#### Former full-stack developer @ AcademAI, where I built LLM-powered learning tools
+#### I like turning complex security ideas into working prototypes.
 
 ## Education
 

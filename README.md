@@ -1,9 +1,8 @@
-# Applied Cryptography Researcher | Full-Stack Dev
+# Applied Cryptography Researcher | Full-Stack Developer
 
 #### MSc candidate in Network & Information Security (CQUPT).
 #### Research focus: privacy-enhancing technologies — FHE, PIR, and blockchain systems.
 #### Former full-stack developer @ AcademAI, where I built LLM-powered learning tools
-#### I like turning complex security ideas into working prototypes.
 
 ## Education
 

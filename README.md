@@ -1,8 +1,6 @@
-# Applied Cryptography Researcher | Full-Stack Developer
+# Applied Cryptography | Full-Stack Developer
 
-#### MSc candidate in Network & Information Security (CQUPT).
-#### Research focus: privacy-enhancing technologies — FHE, PIR, and blockchain systems.
-#### Former full-stack developer @ AcademAI, where I built LLM-powered learning tools
+#### I’m a master’s student in Network and Information Security at CQUPT, researching privacy-enhancing technologies such as homomorphic encryption, private information retrieval, and blockchain systems. Before moving into applied cryptography, I worked as a full-stack developer at AcademAI, where I built LLM-powered educational tools using Next.js, TypeScript, and Python. Open to research, open-source, and applied crypto/privacy projects.
 
 ## Education
 
@@ -29,12 +27,11 @@
 | ------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
 | [YouKnow](https://github.com/AcademAI/youknow)                                  | LLM-app for generating personalized educational courses            | Python, Next.js, TypeScript, Prisma, Auth.js, Flask, AsyncIO, Redis, Langchain |
 
-
 ## Hackathons, Conferences, etc
 
 | Event                                                                                                                              | Description                                                                                                                    | Result (paper, ppt, link)                                                                                                                                               |
 | ---------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [ITMO XIII Science Conference](https://github.com/artias13/Events/blob/main/2024/itmo_kmu_2024_spring.png)                         | Attended ITMO's XIII Congress of young scientists                                                                              | [Certificate](https://github.com/artias13/Events/blob/main/2024/itmo_kmu_2024_spring.png)                                                                               |
+| [Bringing Private Reads to Hyperledger Fabric via Private Information Retrieval](https://github.com/artias13/Events/blob/main/2024/itmo_kmu_2024_spring.png)                         | Published preprint                                                                              | 1. [arxiv](https://arxiv.org/abs/2511.02656)\\ 2. [Repository](https://github.com/iasenovets/2_2_HLF_CPIR)                                                |
 | [Phystech Gigachat Challenge 2023 Hackathon](https://github.com/artias13/Events/blob/main/2023/mfti_ai_hackathon_2023_winter.png)  | Attended the Phystech Gigachat Challenge held by MFTI backed by Sber in Winter 2023                                            | [Repository](https://github.com/AcademAI/youknow_mfti)                                                                                                                  |
 | [Kaspersky's Cyberimmunity 2023 Hackathon](https://github.com/artias13/Events/blob/main/2023/kaspersky_hackathon_2023_winter.png)  | Attended the Kaspersky's Cyberimmunity Hackathon in Fall 2023                                                                  | 1.[Repository](https://github.com/artias13/cyberimmune2023_mi6) 2. [Certificate](https://github.com/artias13/Events/blob/main/2023/kaspersky_hackathon_2023_winter.png) |
 | [iTechPred 2023 Accelerator](https://github.com/artias13/Events/blob/main/2023/itechpred_2023_summer-winter.png)                   | Petrozavodsk University Acceleration Program on Technological Entrepreneurship                                                 | [PT.2035 Project Page](https://pt.2035.university/project/youknow)                                                                                                      |

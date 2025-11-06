@@ -23,14 +23,14 @@
 
 ## Projects
 
-| Project                                                                         | Description                                                        | Technologies                                                                   |
+| Title                                                                         | Description                                                        | Technologies                                                                   |
 | ------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
 | [HLF-CPIR](https://github.com/iasenovets/2_2_HLF_CPIR)                                  | Source code and scripts for [paper](https://arxiv.org/abs/2511.02656)            | Go, Docker, Hyperledger Fabric, Lattigo, FHE, PIR |
 | [YouKnow](https://github.com/AcademAI/youknow)                                  | LLM-app for generating personalized educational courses            | Python, Next.js, TypeScript, Prisma, Auth.js, Flask, AsyncIO, Redis, Langchain |
 
 ## Achievements
 
-| Event                                                                                                                              | Description                                                                                                                    | Result (paper, ppt, link)                                                                                                                                               |
+| Title                                                                                                                              | Description                                                                                                                    | Result (paper, ppt, link)                                                                                                                                               |
 | ---------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Bringing Private Reads to Hyperledger Fabric via Private Information Retrieval                         | Published preprint                                                                              | 1. [arxiv](https://arxiv.org/abs/2511.02656) 2. [Repository](https://github.com/iasenovets/2_2_HLF_CPIR)                                                |
 | [Phystech Gigachat Challenge 2023 Hackathon](https://github.com/artias13/Events/blob/main/2023/mfti_ai_hackathon_2023_winter.png)  | Attended the Phystech Gigachat Challenge held by MFTI backed by Sber in Winter 2023                                            | 1. [Repository](https://github.com/AcademAI/youknow_mfti)                                                                                                                  |

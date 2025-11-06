@@ -21,14 +21,14 @@
 | PTStart Intern @ [Positive Technologies](https://pt-start.ptsecurity.com/) | PTStart 2024.2 1st stage                                | 1. [Certificate](https://github.com/artias13/Events/blob/main/2024/ptstart_2024.png)                         |
 | DevOps Intern @ [Consult-Inform](https://consult-inform.com/)              | Consult Inform DevOps Department 2024 Summer Internship | 1. [Certificate](https://github.com/artias13/Events/blob/main/2024/internship_consultinform_2024_summer.png) |
 
-## Pet-Projects
+## Projects
 
 | Project                                                                         | Description                                                        | Technologies                                                                   |
 | ------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
-| [YouKnow](https://github.com/AcademAI/youknow)                                  | LLM-app for generating personalized educational courses            | Python, Next.js, TypeScript, Prisma, Auth.js, Flask, AsyncIO, Redis, Langchain |
 | [HLF-CPIR](https://github.com/iasenovets/2_2_HLF_CPIR)                                  | Source code and scripts for [paper](https://arxiv.org/abs/2511.02656)            | Go, Docker, Hyperledger Fabric, Lattigo, FHE, PIR |
+| [YouKnow](https://github.com/AcademAI/youknow)                                  | LLM-app for generating personalized educational courses            | Python, Next.js, TypeScript, Prisma, Auth.js, Flask, AsyncIO, Redis, Langchain |
 
-## Hackathons, Conferences, etc
+## Achievements
 
 | Event                                                                                                                              | Description                                                                                                                    | Result (paper, ppt, link)                                                                                                                                               |
 | ---------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

@@ -1,16 +1,18 @@
 # Graduate Researcher | Applied Cryptography
 
-#### I'm a master's student in Network and Information Security at CQUPT, researching Privacy-Enhancing Technologies — specifically Fully Homomorphic Encryption, Private Information Retrieval, and their applications to blockchain and distributed systems. Before moving into applied cryptography, I worked as a software engineer at AcademAI and interned at Positive Technologies. Open to research collaborations and applied crypto/privacy projects.
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0008--0008--3746-brightgreen?logo=orcid)](https://orcid.org/0009-0008-0008-3746)
+
+#### I'm a master's student in Network and Information Security at CQUPT, researching Privacy-Enhancing Technologies and their applications to blockchain and distributed systems. Open to research collaborations and applied crypto/privacy projects.
+
+## Research Interests
+
+Homomorphic Encryption · Privacy-Enhancing Technologies · Threat Intelligence · Blockchain
 
 ## Education
 
 - M.S., Network & Information Security | [CQUPT](https://www.cqupt.edu.cn/en/) — Supervisor: [Prof. Tang Fei](https://faculty.cqupt.edu.cn/tangfei/en/index.htm) | GPA: 3.9/4.0 _(2024 – Present)_
 - B.S., Information Systems and Technologies | Ukhta State Technical University | GPA: 4.5/5.0 (3.6/4.0) _(2022 – 2024)_
 - B.S., Information Systems and Technologies | St. Petersburg State University of Telecommunications _(2020 – 2022)_
-
-## Research Interests
-
-Homomorphic Encryption · Privacy-Enhancing Technologies · Threat Intelligence · Blockchain
 
 ## Publications
 

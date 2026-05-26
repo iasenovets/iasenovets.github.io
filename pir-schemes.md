@@ -5,7 +5,7 @@ title: PIR Scheme Notes
 
 # PIR Scheme Notes | Research Review
 
-[Home](./) · [Study Plan](./study-plan) · [PIR Scheme Notes](./pir-schemes) · [ORCID](https://orcid.org/0009-0008-0008-3746) · [CV](/files/old/phd/cv.pdf)
+[Home](./) · [Study Plan](./study-plan) · [PIR Scheme Notes](./pir-schemes)
 
 This page is a public index for my ongoing review of Private Information Retrieval (PIR) schemes. It is intentionally structured as a working research-notes template: detailed writeups, figures, and references can be added gradually.
 

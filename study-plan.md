@@ -5,7 +5,7 @@ title: Study Plan
 
 # Study Plan | FHE, PETs, and Applied Cryptography
 
-[Home](./) · [Study Plan](./study-plan) · [PIR Scheme Notes](./pir-schemes) · [ORCID](https://orcid.org/0009-0008-0008-3746) · [CV](/files/old/phd/cv.pdf)
+[Home](./) · [Study Plan](./study-plan) · [PIR Scheme Notes](./pir-schemes)
 
 This page tracks the topics I am currently strengthening for applied cryptography, fully homomorphic encryption, privacy-preserving computation, and future research work. The focus is practical: understand the theory well enough to build, evaluate, and explain working systems.
 

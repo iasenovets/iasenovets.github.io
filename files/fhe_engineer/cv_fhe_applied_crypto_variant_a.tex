@@ -1,0 +1,257 @@
+\documentclass[10.5pt,letterpaper]{article}
+\usepackage[letterpaper,margin=0.55in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[default]{lato}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, urlcolor=blue}
+
+\pagestyle{empty}
+\setlength{\tabcolsep}{0em}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{topsep=0.15em}
+
+\newcommand{\headerrow}[2]
+{\begin{tabular*}{\linewidth}{l@{\extracolsep{\fill}}r}
+#1 & #2 \\
+\end{tabular*}}
+
+\newcommand{\sectionline}[1]{
+\vspace{0.18cm}
+\subsection*{\large #1}
+\vspace{-0.55em}
+\hrule
+\vspace{0.25em}
+}
+
+\begin{document}
+
+% ────────────────────────────────────────────────
+% HEADER
+% ────────────────────────────────────────────────
+\begin{center}
+    {\LARGE \textbf{ARTUR IASENOVETS}} \\
+    \vspace{0.06cm}
+    \textbf{Applied Cryptography / FHE Research Engineer} \\
+    \vspace{0.08cm}
+    Chongqing, China $\bullet$
+    \href{mailto:archee.busy@gmail.com}{archee.busy@gmail.com} $\bullet$
+    \href{https://linkedin.com/in/iasenovets}{LinkedIn} $\bullet$
+    \href{https://orcid.org/0009-0008-0008-3746}{ORCID} $\bullet$
+    \href{https://iasenovets.github.io/}{Portfolio}
+\end{center}
+
+\vspace{0.12cm}
+
+% ────────────────────────────────────────────────
+% SUMMARY
+% ────────────────────────────────────────────────
+\noindent
+Master's researcher in Network \& Information Security focused on fully homomorphic encryption
+(FHE), private information retrieval (PIR), and privacy-preserving systems. Hands-on experience
+building BGV-based PIR in Hyperledger Fabric using Lattigo and CKKS-based encrypted aggregation
+for federated reinforcement learning using TenSEAL, PyTorch, and NumPy. Strong fit for applied
+crypto/FHE roles requiring prototype development, empirical evaluation, and research-to-system
+translation.
+
+\vspace{0.1cm}
+
+\noindent\textbf{Target Areas:} FHE systems, private information retrieval, encrypted aggregation,
+privacy-preserving ML infrastructure, secure analytics, blockchain privacy.
+
+% ────────────────────────────────────────────────
+% TECHNICAL SKILLS
+% ────────────────────────────────────────────────
+\sectionline{Technical Skills}
+
+\begin{itemize}[leftmargin=0em, noitemsep]
+    \renewcommand\labelitemi{}
+    \item \textbf{Cryptography:} Fully Homomorphic Encryption, BGV, CKKS, PIR, searchable encryption, OPRF/OT-based constructions, differential privacy, secure aggregation, RLWE/LWE-based security assumptions
+    \item \textbf{FHE Libraries:} Lattigo, TenSEAL, Microsoft SEAL, OpenFHE; familiar with TFHE and Concrete documentation
+    \item \textbf{Programming:} Python, Go, TypeScript, JavaScript, SQL
+    \item \textbf{ML / Data:} PyTorch, NumPy, federated learning, reinforcement learning, intrusion-detection workflows
+    \item \textbf{Systems / Security:} Hyperledger Fabric, Docker, GitHub Actions, S3/MinIO, Airflow, YARA, Chainsaw, MITRE ATT\&CK
+    \item \textbf{Languages:}
+    \href{https://certs.duolingo.com/751e0ef152565727b6d5fd909699ceaa}{English C1},
+    \href{https://admin.chinesetest.cn/queryScore.do?sid=c2tActR9Wb%2704b861aefbdc5e9fd0b44afa717d08cbceb0720e582ce25f%2724d7sWsQ5nVUQSwD}{Chinese HSK3},
+    Russian native
+\end{itemize}
+
+% ────────────────────────────────────────────────
+% SELECTED FHE / APPLIED CRYPTO PROJECTS
+% ────────────────────────────────────────────────
+\sectionline{Selected FHE / Applied Cryptography Projects}
+
+\begin{itemize}[leftmargin=0em, itemsep=0.45em]
+    \renewcommand\labelitemi{}
+
+    \item
+    \textbf{BGV-Based Private Information Retrieval for Hyperledger Fabric}
+    \begin{itemize}[leftmargin=1.2em, itemsep=0.05em]
+        \renewcommand\labelitemi{$\bullet$}
+        \item Implemented a single-server HE-PIR prototype in Go using Lattigo, with packed CTI records, client-side encrypted selection vectors, and chaincode-side ciphertext-plaintext evaluation.
+        \item Designed fixed-window slot packing, record-capacity checks, channel-specific parameterization, and client-side decoding for privacy-preserving reads from Fabric world state.
+        \item Benchmarked end-to-end latency, peer-side evaluation time, network traffic, storage overhead, and parameter/capacity constraints; reported 113 ms end-to-end latency and $\sim$2 MB peer traffic per query in the prototype.
+        \item \textbf{Stack:} Go, Lattigo, Hyperledger Fabric, Docker, BGV, PIR, RLWE-based HE.
+    \end{itemize}
+
+    \item
+    \textbf{CKKS-Based Encrypted Aggregation for Federated Reinforcement Learning}
+    \begin{itemize}[leftmargin=1.2em, itemsep=0.05em]
+        \renewcommand\labelitemi{$\bullet$}
+        \item Implemented CKKS-encrypted model-update aggregation using TenSEAL for a federated reinforcement learning network-defense prototype.
+        \item Used chunking to encode model-update vectors into encrypted CKKS payloads; clients train locally in plaintext while aggregation is performed over encrypted updates.
+        \item Compared plaintext, differential privacy, trust-weighted, HE, and combined HE+DAPI execution paths; focused on confidentiality of model updates rather than full encrypted training/inference.
+        \item \textbf{Stack:} Python, TenSEAL, PyTorch, NumPy, CKKS, federated learning, reinforcement learning.
+    \end{itemize}
+
+\end{itemize}
+
+% ────────────────────────────────────────────────
+% PUBLICATIONS
+% ────────────────────────────────────────────────
+\sectionline{Publications \& Manuscripts}
+
+\begin{itemize}[leftmargin=0em, itemsep=0.35em]
+    \renewcommand\labelitemi{}
+
+    \item
+    \headerrow
+        {\textbf{Bringing Private Reads to Hyperledger Fabric via Private Information Retrieval}}
+        {\emph{Nov. 2025}}
+    \headerrow
+        {\emph{Iasenovets A., Tang F., Zhu H., Wang P., Liu L. --- arXiv preprint (submitted to IEEE)}}
+        {\href{https://arxiv.org/abs/2511.02656}{arXiv:2511.02656}}
+    {\small BGV-based PIR for private world-state reads in Hyperledger Fabric.}
+
+    \item
+    \headerrow
+        {\textbf{Adaptive Privacy-Aware Federated Reinforcement Learning with Trust-Weighted Secure Aggregation}}
+        {\emph{2026}}
+    \headerrow
+        {\emph{Manuscript in preparation --- second author}}
+        {}
+    {\small CKKS-based encrypted aggregation using TenSEAL with chunked model-update encoding for privacy-preserving federated reinforcement learning.}
+
+    \item
+    \headerrow
+        {\textbf{EVMK-SSE: Efficient and Verifiable Multi-Keyword Symmetric Searchable Encryption}}
+        {\emph{Dec. 2025}}
+    \headerrow
+        {\emph{Zhu H., Tang F., Qin W., Shan J., Wang P., Iasenovets A. --- J. King Saud Univ. Comput. Inf. Sci.}}
+        {\href{https://doi.org/10.1007/s44443-025-00405-8}{DOI}}
+    {\small Multi-keyword searchable encryption using a lightweight OT-based relaxed OPRF.}
+
+    \item
+    \headerrow
+        {\textbf{MFCTIIF: Multi-Feed Cyber Threat Intelligence Integration Framework}}
+        {\emph{Jan. 2026}}
+    \headerrow
+        {\emph{Iasenovets A.V., Tang F. --- International Research Journal, No.\,1 (163)}}
+        {\href{https://doi.org/10.60797/IRJ.2026.163.57}{DOI}}
+    {\small Modular CTI feed aggregation, enrichment, synonym resolution, and automated threat-level classification.}
+
+\end{itemize}
+
+% ────────────────────────────────────────────────
+% EXPERIENCE
+% ────────────────────────────────────────────────
+\sectionline{Experience}
+
+\begin{itemize}[leftmargin=0em, itemsep=0.45em]
+    \renewcommand\labelitemi{}
+
+    \item
+    \headerrow
+        {\textbf{Graduate Student Researcher}}
+        {Chongqing, China}
+    \headerrow
+        {\emph{Chongqing University of Posts and Telecommunications --- Applied Cryptography Group}}
+        {\emph{Sept. 2024 -- Present}}
+    \begin{itemize}[leftmargin=1.2em, itemsep=0.05em]
+        \renewcommand\labelitemi{$\bullet$}
+        \item Designed and implemented BGV-based private information retrieval for Hyperledger Fabric using Lattigo, including packed plaintext encoding, encrypted query generation, ciphertext-plaintext evaluation, and client-side decoding.
+        \item Implemented CKKS-based encrypted aggregation for federated reinforcement learning using TenSEAL, PyTorch, and NumPy, including chunked model-update encoding.
+        \item Evaluated privacy-preserving prototypes using latency, communication volume, storage overhead, ciphertext expansion, and parameter/capacity constraints.
+        \item Contributed to research papers on FHE-based PIR, searchable encryption, cyber threat intelligence, and privacy-preserving federated learning.
+    \end{itemize}
+
+    \item
+    \headerrow
+        {\textbf{Security Intern}}
+        {Remote}
+    \headerrow
+        {\emph{Positive Technologies --- Leading Eastern European cybersecurity company}}
+        {\emph{Aug. 2024 -- Feb. 2025}}
+    \begin{itemize}[leftmargin=1.2em, itemsep=0.05em]
+        \renewcommand\labelitemi{$\bullet$}
+        \item Developed Python utilities for MaxPatrol EDR, including regex-based Windows path/network configuration parsing, unit-test coverage, and a Windows Prefetch-based allowlist/blocklist checker.
+        \item Built a malware-processing pipeline for Threat Intelligence: VX-Underground sample ingestion, S3/MinIO artifact storage, YARA scanning, and Airflow-based daily automation.
+        \item Conducted SOC analysis of CVE-2020-5902 and CVE-2023-38831 attack chains using Chainsaw, PowerShell deobfuscation, oletools, IoC extraction, and MITRE ATT\&CK mapping.
+    \end{itemize}
+
+    \item
+    \headerrow
+        {\textbf{Software Engineer}}
+        {Remote}
+    \headerrow
+        {\emph{academai.ru --- AI-powered EdTech startup under Sberbank's Accelerator program}}
+        {\emph{Aug. 2023 -- Aug. 2024}}
+    \begin{itemize}[leftmargin=1.2em, itemsep=0.05em]
+        \renewcommand\labelitemi{$\bullet$}
+        \item Built Flask REST API endpoints orchestrating structured-prompt LLM calls via Langchain to generate personalized course components.
+        \item Developed frontend functionality with Next.js, TypeScript, Prisma, and Auth.js; built Dockerized CI/CD pipelines with GitHub Actions.
+    \end{itemize}
+
+\end{itemize}
+
+% ────────────────────────────────────────────────
+% EDUCATION
+% ────────────────────────────────────────────────
+\sectionline{Education}
+
+\begin{itemize}[leftmargin=1em, itemsep=0.3em]
+    \item
+    \headerrow
+        {\textbf{Chongqing University of Posts and Telecommunications}}
+        {Chongqing, China}
+    \headerrow
+        {\emph{M.S. Network \& Information Security \quad Supervisor: \href{https://faculty.cqupt.edu.cn/tangfei/en/index.htm}{Prof. Tang Fei}}}
+        {\emph{Sept. 2024 -- Present}}
+        {\emph{GPA: 3.9/4.0}}
+
+    \item
+    \headerrow
+        {\textbf{Ukhta State Technical University}}
+        {Russia}
+    \headerrow
+        {\emph{B.S. Information Systems and Technologies}}
+        {\emph{March 2022 -- June 2024}}
+        {\emph{GPA: 4.5/5.0 (3.6/4.0)}}
+
+    \item
+    \headerrow
+        {\textbf{St. Petersburg State University of Telecommunications named after Prof. M.A. Bonch-Bruevich}}
+        {Russia}
+    \headerrow
+        {\emph{B.S. Information Systems and Technologies}}
+        {\emph{Sept. 2020 -- March 2022}}
+
+\end{itemize}
+
+% ────────────────────────────────────────────────
+% HONORS
+% ────────────────────────────────────────────────
+\sectionline{Selected Honors}
+
+\begin{itemize}[leftmargin=0em, itemsep=0.25em]
+    \renewcommand\labelitemi{}
+    \item \headerrow{\textbf{Chinese Government Scholarship for Graduate Studies}}{\emph{Sept. 2024 -- Aug. 2027}}
+    \item \headerrow{\textbf{5 Science Conferences --- 3 first-place paper evaluations at USTU}}{\emph{Apr. 2022 -- Apr. 2023}}
+    \item \headerrow{\textbf{Kaspersky Cyberimmune Development Hackathon 2.0 --- 11th of 100+ teams}}{\emph{Dec. 2023}}
+    \item \headerrow{\textbf{MIPT \& Sber Phystech GigaChat Challenge Hackathon --- LLM course-generation app}}{\emph{Dec. 2023}}
+\end{itemize}
+
+\end{document}

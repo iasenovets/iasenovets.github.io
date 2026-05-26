@@ -1,0 +1,269 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[letterpaper,margin=0.6in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{mdwlist}
+\usepackage[default]{lato}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{fontawesome}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, urlcolor=blue}
+
+\DeclareFontFamily{U}{fontawesomeOne}{}
+\DeclareFontShape{U}{fontawesomeOne}{m}{n}
+{<-> FontAwesome--fontawesomeone}{}
+\DeclareRobustCommand\FAone{\fontencoding{U}\fontfamily{fontawesomeOne}\selectfont}
+
+\pagestyle{empty}
+\setlength{\tabcolsep}{0em}
+
+\newcommand{\headerrow}[2]
+{\begin{tabular*}{\linewidth}{l@{\extracolsep{\fill}}r}
+#1 & #2 \\
+\end{tabular*}}
+
+\begin{document}
+
+% ────────────────────────────────────────────────
+%  HEADER
+% ────────────────────────────────────────────────
+\begin{center}
+    {\LARGE \textbf{ARTUR IASENOVETS}} \\
+    \vspace{0.1cm}
+    Chongqing, China $\bullet$
+    \href{mailto:archee.busy@gmail.com}{archee.busy@gmail.com} $\bullet$
+    \href{https://linkedin.com/in/iasenovets}{LinkedIn}
+\end{center}
+
+\vspace{0.2cm}
+
+% ────────────────────────────────────────────────
+%  SUMMARY
+% ────────────────────────────────────────────────
+\noindent
+\textbf{Software Engineer} with more than 3 years of experience building production-grade applications,
+including 1 year developing LLM-powered products at an EdTech startup and 6 months interning
+at Positive Technologies, a leading Eastern European cybersecurity company. Proficient in Python, Go, and TypeScript,
+familiar with Windows and Linux environments, and experienced in security tooling, threat intelligence pipelines,
+and end-to-end CI/CD automation. Published research on blockchain query privacy using homomorphic encryption scheme,
+cryptographic protocols for searchable encryption, and multi-feed threat intelligence in peer-reviewed journals.
+
+\vspace{0.3cm}
+
+% ────────────────────────────────────────────────
+%  EXPERIENCE
+% ────────────────────────────────────────────────
+\subsection*{\Large Experience}
+\vspace{-0.5em}
+\hrule
+\vspace{0.3em}
+
+\renewcommand\labelitemi{}
+\renewcommand\labelitemii{$\bullet$}
+\begin{itemize}[leftmargin=0em, itemsep=0.6em]
+    \parskip=0.1em
+
+    \item
+    \headerrow
+        {\textbf{Security Intern}}
+        {Remote}
+    \headerrow
+        {\emph{Positive Technologies --- Leading Eastern European cybersecurity company}}
+        {\emph{Aug. 2024 -- Feb. 2025}}
+    \begin{itemize}[leftmargin=1.2em, itemsep=0.1em]
+        \renewcommand\labelitemi{$\bullet$}
+        \item Developed \textbf{Python} regex utilities with unit-test coverage for parsing Windows file paths and network configs at the \textbf{MaxPatrol EDR} product team; built a \textbf{Windows Prefetch}-based software allowlist/blocklist checker and a Dockerized \textbf{Telegram bot} for automated compliance monitoring.
+        \item Engineered a \textbf{Python} file-processing pipeline for the \textbf{Threat Intelligence} team, fetching malware samples from VX-Underground, storing extracted files in \textbf{S3/MinIO}, and scanning them with \textbf{YARA} rules; packaged the workflow as an \textbf{Airflow DAG} for daily automated processing.
+        \item Performed hands-on security analysis as part of the \textbf{SOC} team: investigated attack chains for \textbf{CVE-2020-5902} and \textbf{CVE-2023-38831}, conducted EVTX log forensics with \textbf{Chainsaw}, deobfuscated PowerShell payloads, analyzed malicious \textbf{VBA macros} with oletools, extracted IoCs and mapped TTPs to \textbf{MITRE ATT\&CK}.
+    \end{itemize}
+
+    \item
+    \headerrow
+        {\textbf{Software Engineer}}
+        {Remote}
+    \headerrow
+        {\emph{academai.ru --- AI-powered EdTech startup building personalized LLM learning tools}}
+        {\emph{Aug. 2023 -- Aug. 2024}}
+    \begin{itemize}[leftmargin=1.2em, itemsep=0.1em]
+        \renewcommand\labelitemi{$\bullet$}
+        \item Designed and delivered an LLM-app generating personalised educational content,
+              used in production, using \textbf{Python, Flask, AsyncIO, and Langchain}.
+        \item Developed a responsive frontend with \textbf{Next.js, TypeScript, Prisma, and Auth.js},
+              ensuring seamless user authentication and consistent UI across the platform.
+        \item Reduced deployment friction by building a full \textbf{CI/CD pipeline} via GitHub Actions
+              with \textbf{Docker} containerization, cutting release cycles significantly.
+    \end{itemize}
+
+    \item
+    \headerrow
+        {\textbf{Software Developer}}
+        {Russia}
+    \headerrow
+        {\emph{ECP Progress LLC --- Regional manufacturer of high-voltage ceramic capacitors}}
+        {\emph{May 2022 -- Aug. 2023}}
+    \begin{itemize}[leftmargin=1.2em, itemsep=0.1em]
+        \renewcommand\labelitemi{$\bullet$}
+        \item Designed and developed a full stack warehouse \textbf{QR-inventory system} using
+              \textbf{Python and FastAPI}, replacing a manual tracking process entirely.
+        \item Conducted personnel interviews with 10+ stakeholders to gather requirements,
+              reducing ambiguity and aligning the solution with real operational needs.
+        \item Owned the complete development lifecycle: backlogging, architecture design,
+              code reviews, testing, debugging, and production deployment.
+    \end{itemize}
+
+\end{itemize}
+
+\vspace{0.2cm}
+
+% ────────────────────────────────────────────────
+%  SKILLS
+% ────────────────────────────────────────────────
+\subsection*{\Large Skills}
+\vspace{-0.5em}
+\hrule
+\vspace{0.3em}
+
+\begin{itemize}[leftmargin=0em, noitemsep]
+    \renewcommand\labelitemi{}
+    \item \textbf{Languages:} Python, Go, TypeScript, JavaScript, SQL, NoSQL
+    \item \textbf{Frameworks / Libraries:} FastAPI, Flask, Next.js, React, Redux, Langchain, Prisma, Auth.js, Hardhat, Web3.py
+    \item \textbf{Tools:} Docker, Nginx, Hyperledger Fabric, Git, GitHub Actions, AsyncIO, S3, Airflow, YARA, Chainsaw
+    \item \textbf{Language Skills:}
+    \href{https://certs.duolingo.com/751e0ef152565727b6d5fd909699ceaa}{English C1},
+    \href{https://admin.chinesetest.cn/queryScore.do?sid=c2tActR9Wb%2704b861aefbdc5e9fd0b44afa717d08cbceb0720e582ce25f%2724d7sWsQ5nVUQSwD}{Chinese HSK3},
+    Russian native
+\end{itemize}
+
+\vspace{0.2cm}
+
+% ────────────────────────────────────────────────
+%  EDUCATION
+% ────────────────────────────────────────────────
+\subsection*{\Large Education}
+\vspace{-0.5em}
+\hrule
+\vspace{0.3em}
+
+\begin{itemize}[leftmargin=0em, itemsep=0.4em]
+    \parskip=0.1em
+
+    \item
+    \headerrow
+        {\textbf{Chongqing University of Posts and Telecommunications}}
+        {Chongqing, China}
+    \headerrow
+        {\emph{M.S. Network \& Information Security}}
+        {\emph{Sept. 2024 -- Present}}
+
+    \item
+    \headerrow
+        {\textbf{Ukhta State Technical University}}
+        {Russia}
+    \headerrow
+        {\emph{B.S. Information Systems and Technologies} \quad \textbf{GPA: 4.5/5.0}}
+        {\emph{March. 2022 -- June 2024}}
+
+    \item
+    \headerrow
+        {\textbf{St. Petersburg State University of Telecommunications named after Prof. M.A. Bonch-Bruevich}}
+        {Russia}
+    \headerrow
+        {\emph{B.S. Information Systems and Technologies} \quad \textbf{GPA: 4.2/5.0}}
+        {\emph{Sept. 2020 -- March 2022}}
+
+\end{itemize}
+
+\vspace{0.2cm}
+
+% ────────────────────────────────────────────────
+%  PUBLICATIONS
+% ────────────────────────────────────────────────
+\subsection*{\Large Publications}
+\vspace{-0.5em}
+\hrule
+\vspace{0.3em}
+
+\begin{itemize}[leftmargin=0em, itemsep=0.5em]
+    \parskip=0.1em
+    \renewcommand\labelitemi{}
+
+    \item
+    \headerrow
+        {\textbf{MFCTIIF: Multi-Feed Cyber Threat Intelligence Integration Framework}}
+        {\emph{Jan. 2026}}
+    \headerrow
+        {\emph{Iasenovets A.V., Tang F. --- International Research Journal, No.\,1 (163)}}
+        {\href{https://doi.org/10.60797/IRJ.2026.163.57}{DOI}}
+    \vspace{0.1em}
+    {\small Proposed a modular framework aggregating heterogeneous CTI feeds (MalwareBazaar, VirusTotal, APT ETDA), performing metadata enrichment, synonym resolution, and automated threat-level classification; evaluated on 100 malware samples with ~15--17s end-to-end latency.}
+
+    \item
+    \headerrow
+        {\textbf{EVMK-SSE: Efficient and Verifiable Multi-Keyword Symmetric Searchable Encryption}}
+        {\emph{Dec. 2025}}
+    \headerrow
+        {\emph{Zhu H., Tang F., Qin W., Shan J., Wang P., Iasenovets A. --- J. King Saud Univ. Comput. Inf. Sci.}}
+        {\href{https://doi.org/10.1007/s44443-025-00405-8}{DOI}}
+    \vspace{0.1em}
+    {\small Proposed EVMK-SSE, an efficient and verifiable multi-keyword SSE scheme replacing DH-OPRF with a lightweight OT-based client-independent relaxed OPRF, reducing computational overhead while maintaining strong privacy guarantees for outsourced cloud databases.}
+
+    \item
+    \headerrow
+        {\textbf{Bringing Private Reads to Hyperledger Fabric via Private Information Retrieval}}
+        {\emph{Nov. 2025}}
+    \headerrow
+        {\emph{Iasenovets A., Tang F., Zhu H., Wang P., Liu L. --- arXiv preprint (submitted to IEEE)}}
+        {\href{https://arxiv.org/abs/2511.02656}{arXiv:2511.02656}}
+    \vspace{0.1em}
+    {\small Proposed and implemented a BGV homomorphic encryption-based PIR mechanism natively in Hyperledger Fabric chaincode, enabling private world-state reads without modifying Fabric's core architecture; achieved 113 ms end-to-end latency and $\sim$2 MB peer traffic per query across a multi-channel prototype.}
+
+\end{itemize}
+
+\vspace{0.2cm}
+
+% ────────────────────────────────────────────────
+%  ACHIEVEMENTS
+% ────────────────────────────────────────────────
+\subsection*{\Large Achievements}
+\vspace{-0.5em}
+\hrule
+\vspace{0.3em}
+
+\begin{itemize}[leftmargin=0em, itemsep=0.4em]
+    \parskip=0.1em
+    \renewcommand\labelitemi{}
+
+    \item
+    \headerrow
+        {\textbf{5 Science Conferences}}
+        {\emph{Apr. 2022 -- Apr. 2023}}
+    Won \textbf{3 consecutive first places} in paper evaluations across various scientific conferences.
+
+    \item
+    \headerrow
+        {\textbf{SberStudent Product Sprint}}
+        {\emph{June 2023 -- Nov. 2023}}
+    Advanced \href{https://youknow.academai.ru}{\textbf{youknow}} (academai.ru) --- an LLM-powered personalized course generator --- to the finalist stage and presented the product MVP at the \textbf{regional demo in St.\ Petersburg} out of hundreds of student teams nationwide.
+
+    \item
+    \headerrow
+        {\textbf{iTechPred Product Sprint}}
+        {\emph{Oct. 2023 -- Nov. 2023}}
+    Pitched \href{https://youknow.academai.ru}{\textbf{youknow}} as an EdTech product at Petrozavodsk State University's student sprint, reaching the finals and presenting at the regional online demo day.
+
+    \item
+    \headerrow
+        {\textbf{MIPT \& Sber Phystech GigaChat Challenge Hackathon}}
+        {\emph{Dec. 2023}}
+    Developed \href{https://youknow.academai.ru}{\textbf{youknow}} (academai.ru) --- an LLM-app generating personalized educational courses --- using \textbf{GigaChat} and \textbf{Kandinsky} APIs within a 48-hour hackathon sprint.
+
+    \item
+    \headerrow
+        {\textbf{Kaspersky Cyberimmune Development Hackathon 2.0}}
+        {\emph{Oct. 2023 -- Dec. 2023}}
+    Contributed to the design of a \textbf{cyber-attack resistant architecture} for an on-board drone inspector system protecting critical infrastructure.
+
+\end{itemize}
+
+\end{document}

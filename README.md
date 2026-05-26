@@ -1,6 +1,6 @@
 # Graduate Researcher | Applied Cryptography
 
-[Home](./) · [Study Plan](./study-plan) · [PIR Scheme Notes](./pir-schemes) · [ORCID](https://orcid.org/0009-0008-0008-3746) · [CV](/files/old/phd/cv.pdf)
+[Home](./) · [Study Plan](./study-plan) · [PIR Scheme Notes](./pir-schemes)
 
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0008--0008--3746-brightgreen?logo=orcid)](https://orcid.org/0009-0008-0008-3746) [![CV](https://img.shields.io/badge/CV-Download-blue?logo=adobeacrobatreader)](/files/old/phd/cv.pdf)
 

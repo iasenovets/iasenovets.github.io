@@ -3,6 +3,12 @@ layout: default
 title: PIR Scheme Notes
 ---
 
+<style>
+.wrapper > header img {
+  display: none;
+}
+</style>
+
 # PIR Scheme Notes | Research Review
 
 [Home](./) · [Study Plan](./study-plan) · [PIR Scheme Notes](./pir-schemes)

@@ -3,6 +3,12 @@ layout: default
 title: Study Plan
 ---
 
+<style>
+.wrapper > header img {
+  display: none;
+}
+</style>
+
 # Study Plan | FHE, PETs, and Applied Cryptography
 
 [Home](./) · [Study Plan](./study-plan) · [PIR Scheme Notes](./pir-schemes)

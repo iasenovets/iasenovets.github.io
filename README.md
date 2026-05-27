@@ -2,7 +2,7 @@
 
 [Home](./) · [Study Plan](./study-plan) · [PIR Scheme Notes](./pir-schemes)
 
-[![ORCID](https://img.shields.io/badge/ORCID-0009--0008--0008--3746-brightgreen?logo=orcid)](https://orcid.org/0009-0008-0008-3746) [![CV](https://img.shields.io/badge/CV-Download-blue?logo=adobeacrobatreader)](/files/old/phd/cv.pdf)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0008--0008--3746-brightgreen?logo=orcid)](https://orcid.org/0009-0008-0008-3746) [![LinkedIn](https://img.shields.io/badge/LinkedIn-iasenovets-blue?logo=linkedin)](https://www.linkedin.com/in/iasenovets) [![Email](https://img.shields.io/badge/Email-L202420002%40stu.cqupt.edu.cn-red?logo=gmail)](mailto:L202420002@stu.cqupt.edu.cn) [![CV](https://img.shields.io/badge/CV-Download-blue?logo=adobeacrobatreader)](/files/old/phd/cv.pdf)
 
 #### I'm a master's student in Network and Information Security at CQUPT, researching Privacy-Enhancing Technologies and their applications to blockchain and distributed systems. My work includes homomorphic encryption-based private information retrieval, searchable encryption, cyber threat intelligence, and privacy-preserving computation.
 

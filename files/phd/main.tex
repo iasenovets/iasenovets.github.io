@@ -1,0 +1,331 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,margin=0.62in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+\usepackage{microtype}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+
+\definecolor{linkblue}{RGB}{20,33,110}
+\hypersetup{
+  colorlinks=true,
+  urlcolor=linkblue,
+  linkcolor=linkblue,
+  citecolor=linkblue
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\cfoot{\small \thepage\ of \pageref{LastPage}}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{0pt}
+\setlist[itemize]{leftmargin=1.15em,itemsep=0.08em,topsep=0.15em,parsep=0pt,partopsep=0pt}
+
+\newcolumntype{L}{>{\raggedright\arraybackslash}p{0.145\textwidth}}
+\newcolumntype{R}{>{\raggedright\arraybackslash}p{0.835\textwidth}}
+
+\newcommand{\cvrow}[2]{%
+  \noindent
+  \begin{minipage}[t]{0.145\textwidth}
+    \vspace{0pt}%
+    \textsc{#1}
+  \end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.835\textwidth}
+    \vspace{0pt}%
+    #2
+  \end{minipage}\par
+}
+
+\newcommand{\entry}[2]{%
+  \begin{tabularx}{\linewidth}{@{}X >{\raggedleft\arraybackslash}p{0.28\linewidth}@{}}
+    #1 & #2
+  \end{tabularx}
+}
+
+\newcommand{\pub}[2]{%
+  #1 #2\par
+  \vspace{0.28em}
+}
+
+\newcommand{\eduentry}[2]{%
+  \noindent
+  \begin{tabularx}{\linewidth}{@{}X@{\hspace{0.6em}}r@{}}
+    #1 & \small #2
+  \end{tabularx}\par
+  \vspace{0.15em}
+}
+
+\newcommand{\edudetail}[1]{%
+  \noindent\hspace*{1.15em}$\diamond$ #1\par
+}
+
+\begin{document}
+
+{\fontsize{24}{28}\selectfont\bfseries Artur Iasenovets, M.S. candidate}\par
+\vspace{0.18em}
+\hrule
+\vspace{0.65em}
+
+\cvrow{Present\\Position}{%
+  \begin{tabularx}{\linewidth}[t]
+    {@{}X@{\hspace{1.2em}}>{\raggedright\arraybackslash}p{0.36\linewidth}@{}}
+
+    \begin{tabular}[t]{@{}l@{}}
+      \textbf{Graduate Student Researcher}\\[-0.15em]
+      \href{https://www.cqupt.edu.cn/}
+        {Chongqing University of Posts and Telecommunications}
+    \end{tabular}
+    &
+    \begin{tabular}[t]{@{}l@{}}
+      \textit{Email:}
+      \href{mailto:L202420002@stu.cqupt.edu.cn}{L202420002@stu.cqupt.edu.cn}\\[-0.15em]
+      \textit{Publication list:}
+      \href{https://orcid.org/0009-0008-0008-3746}{ORCID}
+    \end{tabular}
+
+  \end{tabularx}
+}
+
+\vspace{-0.55em}
+
+\cvrow{Research\\Interests}{%
+  My interests lie in \textbf{applied cryptography} and \textbf{privacy-enhancing technologies},
+  with a focus on \textbf{homomorphic encryption}, \textbf{private information retrieval},
+  \textbf{searchable encryption}, and privacy-preserving systems. I am particularly interested
+  in practical cryptographic protocols for private data search and record retrieval.
+}
+
+\vspace{0.75em}
+
+\cvrow{Additional\\Information}{%
+  \textbf{Research profiles:}
+  \href{https://iasenovets.github.io/}{Portfolio}
+  \;\textbullet\;
+  \href{https://linkedin.com/in/iasenovets}{LinkedIn}\par
+  \textbf{References:} Available upon request.
+}
+
+\vspace{0.75em}
+
+\cvrow{Education}{%
+  \raggedright
+
+  % ── Master's degree ─────────────────────────────
+  \textbf{Chongqing University of Posts and Telecommunications},
+  Chongqing, China\par
+  \textit{School of Cyberspace Security and Information Law}\par
+  \vspace{0.12em}
+
+  \eduentry
+    {$\diamond$ \textbf{M.S.} Network \& Information Security}
+    {Sep. 2024--Jul. 2027 \textit{(expected)}}
+
+  \edudetail{Supervisor:
+    \href{https://faculty.cqupt.edu.cn/tangfei/en/index.htm}{Prof. Tang Fei}}
+  \edudetail{GPA: 3.98/4.00}
+
+  \vspace{0.48em}
+
+  % ── Bachelor's degree ───────────────────────────
+  \textbf{Ukhta State Technical University}, Ukhta, Russia\par
+  \vspace{0.12em}
+
+  \eduentry
+    {$\diamond$ \textbf{B.S.} Information Systems and Technologies}
+    {Mar. 2022--Jun. 2024}
+
+  \edudetail{GPA: 4.46/5.00}
+
+  \vspace{0.48em}
+
+  % ── Earlier bachelor's study ────────────────────
+  \textbf{St. Petersburg State University of Telecommunications},
+  St. Petersburg, Russia\par
+  \vspace{0.12em}
+
+  \eduentry
+    {$\diamond$ \textbf{B.S. studies} in Information Systems and Technologies}
+    {Sep. 2020--Mar. 2022}
+}
+
+\vspace{0.75em}
+
+\cvrow{Publications}{%
+  \textbf{Publications and Preprints}\par\vspace{0.25em}
+
+  \pub{\underbar{Artur Iasenovets}, Fei Tang, H. Zhu, P. Wang, and L. Liu.}{``\href{https://arxiv.org/abs/2511.02656}{Bringing Private Reads to Hyperledger Fabric via Private Information Retrieval},'' arXiv:2511.02656, 2025. Manuscript under review.}
+
+  \pub{H. Zhu, F. Tang, W. Qin, J. Shan, P. Wang, and \underbar{Artur Iasenovets}.}{``\href{https://doi.org/10.1007/s44443-025-00405-8}{EVMK-SSE: Efficient and Verifiable Multi-Keyword Symmetric Searchable Encryption},'' \textit{Journal of King Saud University -- Computer and Information Sciences}, 2025.}
+
+  \pub{\underbar{Artur Iasenovets} and Fei Tang.}{``\href{https://doi.org/10.60797/IRJ.2026.163.57}{MFCTIIF: Multi-Feed Cyber Threat Intelligence Integration Framework},'' \textit{International Research Journal}, no. 1 (163), 2026.}
+
+  \vspace{0.15em}
+  \textbf{Manuscript in Preparation}\par\vspace{0.25em}
+
+  \pub{Piyumi M. S. Rajapaksha$^{*}$, \underbar{Artur Iasenovets$^{*}$}, Yinxue Yi, and Fei Tang.}{``TWAPPA-FRL: Trust-Weighted Privacy-Preserving Aggregation for Federated Reinforcement Learning in Collaborative Intrusion Detection,'' manuscript in preparation, 2026. $^{*}$Equal contribution.}
+}
+
+\vspace{0.75em}
+
+\cvrow{Awards \&\\Achievements}{%
+  \entry
+    {\textbf{Chinese Government Scholarship for Graduate Studies}}
+    {2024--2027}
+  Full scholarship for the M.S. programme at CQUPT.
+
+  \vspace{0.45em}
+  \entry
+    {\textbf{Winner, YouKnow EdTech Project Competition}}
+    {2023}
+  Won the EdTech project competition organized by the MIPT Phystech School,
+  the Fund for Development of Phystech Schools, and Startech.Base.
+
+  \vspace{0.45em}
+  \entry
+    {\textbf{First Degree Diploma, Severgeoecotech}}
+    {2022}
+  Awarded first place in the Modern Information Technologies section of the
+  23rd International Youth Scientific Conference.
+
+  \vspace{0.45em}
+  \entry
+    {\textbf{Sber Student Accelerator Regional Demo Day}}
+    {2023}
+  Completed the Sber Student Accelerator with the AcademAI team and
+  participated in the North-Western regional demo day.
+
+  \vspace{0.3em}
+  \href{https://iasenovets.github.io/files/certificates_selected_en_public_ready_v2.pdf}
+       {\small Supporting certificates}
+}
+
+\newpage
+
+\vspace*{0.15em}
+\cvrow{Research\\Experience}{%
+  \entry
+    {\textbf{Graduate Student Researcher} @ Cryptography and Applications Research Group, CQUPT}
+    {Sep. 2024--Present}
+  \vspace{-0.85em}
+
+  \vspace{0.35em}
+
+  \textbf{Private Information Retrieval for Hyperledger Fabric}\par
+  \begin{itemize}
+    \item Designed and implemented a BGV-based computational PIR protocol in Go using Lattigo,
+    integrating private world-state reads directly into Hyperledger Fabric chaincode.
+    \item Defined the honest-but-curious (HBC) threat model and analysed query privacy under the
+    IND-CPA security of BGV, including repeated-query security and observable leakage.
+    \item Built the experimental workflow and evaluated correctness, latency, communication,
+    storage, and deployment overhead across several cryptographic parameter sets.
+  \end{itemize}
+
+  \vspace{0.42em}
+
+  \textbf{Privacy-Preserving Aggregation for Federated Reinforcement Learning}\par
+  \begin{itemize}
+    \item Co-developed TWAPPA-FRL, combining trust-weighted aggregation (TWA)
+    with CKKS-based privacy-preserving aggregation (PPA) for collaborative
+    intrusion detection, as an equal-contribution author.
+    \item Combined trust-aware client weighting with CKKS-based encrypted aggregation of
+    federated model updates and aggregate-only decryption by a separate non-training key authority.
+    \item Developed the threat model and security analysis, including individual-update
+    confidentiality, explicit leakage, and the assumptions and limitations of the PPA-enabled paths.
+  \end{itemize}
+
+  \vspace{0.42em}
+
+  \textbf{Verifiable Multi-Keyword Searchable Encryption}\par
+  \begin{itemize}
+    \item Contributed to EVMK-SSE, an efficient multi-keyword searchable encryption
+    scheme based on an OT-based client-independent relaxed OPRF.
+    \item Reviewed the security analysis covering query privacy, explicit search and
+    access-pattern leakage, and result verifiability against a malicious cloud server.
+  \end{itemize}
+}
+
+\vspace{0.8em}
+
+\cvrow{Industry\\Experience}{%
+  \entry
+    {\textbf{Security Intern} @ \href{https://global.ptsecurity.com/en/}{Positive Technologies}}
+    {Aug. 2024--Feb. 2025}
+  \vspace{-0.85em}
+
+  \begin{itemize}
+    \item Developed tested Python security tooling for the MaxPatrol EDR team to validate
+    Windows file paths, network configurations, and endpoint-control policies.
+    \item Built an Airflow-based malware-processing pipeline that collected samples from
+    VX-Underground, stored artifacts in S3/MinIO, and performed YARA-based scanning.
+    \item Investigated exploitation and post-exploitation activity involving CVE-2020-5902
+    and CVE-2023-38831 through EVTX analysis, PowerShell deobfuscation, IoC extraction,
+    and MITRE ATT\&CK mapping.
+    \item Extended this threat-intelligence experience into the first-author MFCTIIF
+    research project on multi-feed CTI integration.
+  \end{itemize}
+
+  \vspace{0.5em}
+
+  \entry
+    {\textbf{Software Engineer} @ \href{https://academai.ru/}{AcademAI}}
+    {Aug. 2023--Aug. 2024}
+  \vspace{-0.85em}
+
+  \begin{itemize}
+    \item Co-developed an end-to-end AI platform for generating structured and personalized
+    educational courses from user-defined topics and learning objectives.
+    \item Implemented a Python REST API and LangChain-based generation pipeline using
+    structured prompting and asynchronous LLM orchestration.
+    \item Built the frontend and application layer using Next.js, TypeScript, Prisma,
+    and Auth.js, including authentication and persistent course data.
+    \item Containerized and deployed the platform using Docker and GitHub Actions.
+  \end{itemize}
+}
+
+\vspace{0.8em}
+
+\cvrow{Skills}{%
+  \renewcommand{\arraystretch}{1.22}
+  \begin{tabularx}{\linewidth}
+    {@{}>{\raggedright\arraybackslash}X
+    @{\hspace{1.2em}}
+    >{\raggedright\arraybackslash}X@{}}
+
+    $\diamond$ \textbf{Go, Python, TypeScript:} proficient
+    &
+    $\diamond$ \textbf{C++, Rust:} familiar
+    \\
+
+    $\diamond$ \textbf{Homomorphic encryption:} BGV, BFV, CKKS
+    &
+    $\diamond$ \textbf{Private search:} PIR/CPIR, searchable encryption
+    \\
+
+    $\diamond$ \textbf{HE libraries:} Lattigo, Microsoft SEAL, OpenFHE, TenSEAL
+    &
+    $\diamond$ \textbf{Systems:} Hyperledger Fabric, Linux, Docker, Git
+    \\
+
+    $\diamond$ \textbf{Security engineering:} YARA, Chainsaw, malware and log analysis
+    &
+    $\diamond$ \textbf{Languages:} Russian (native),
+    \href{https://certs.duolingo.com/751e0ef152565727b6d5fd909699ceaa}
+        {English (C1)},
+    \href{https://admin.chinesetest.cn/queryScore.do?sid=c2tActR9Wb\%2704b861aefbdc5e9fd0b44afa717d08cbceb0720e582ce25f\%2724d7sWsQ5nVUQSwD}
+        {Chinese (HSK 3)}
+  \end{tabularx}
+}
+
+\end{document}

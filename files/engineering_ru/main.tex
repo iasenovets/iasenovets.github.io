@@ -1,0 +1,370 @@
+% !TeX program = xelatex
+\documentclass[11pt,a4paper]{article}
+
+% Компилировать с XeLaTeX или LuaLaTeX.
+\usepackage[a4paper,margin=0.62in]{geometry}
+\usepackage{fontspec}
+\IfFontExistsTF{Lato}{\setmainfont{Lato}}{\setmainfont{Noto Sans}}
+\usepackage{polyglossia}
+\setdefaultlanguage{russian}
+\usepackage{microtype}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+
+\definecolor{linkblue}{RGB}{20,33,110}
+\hypersetup{
+  colorlinks=true,
+  urlcolor=linkblue,
+  linkcolor=linkblue,
+  citecolor=linkblue
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\cfoot{\small \thepage\ из \pageref{LastPage}}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{0pt}
+\setlist[itemize]{leftmargin=1.15em,itemsep=0.08em,topsep=0.15em,parsep=0pt,partopsep=0pt}
+
+\newcolumntype{L}{>{\raggedright\arraybackslash}p{0.145\textwidth}}
+\newcolumntype{R}{>{\raggedright\arraybackslash}p{0.835\textwidth}}
+
+\newcommand{\cvrow}[2]{%
+  \noindent
+  \begin{minipage}[t]{0.145\textwidth}
+    \vspace{0pt}%
+    \raggedright
+    \fontsize{8.5}{10}\selectfont
+    \bfseries\MakeUppercase{#1}
+  \end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.835\textwidth}
+    \vspace{0pt}%
+    #2
+  \end{minipage}\par
+}
+
+\newcommand{\entry}[2]{%
+  \begin{tabularx}{\linewidth}{@{}X >{\raggedleft\arraybackslash}p{0.28\linewidth}@{}}
+    #1 & #2
+  \end{tabularx}
+}
+
+\newcommand{\pub}[2]{%
+  #1 #2\par
+  \vspace{0.28em}
+}
+
+\newcommand{\eduentry}[2]{%
+  \noindent
+  \begin{tabularx}{\linewidth}
+    {@{}X@{\hspace{0.8em}}
+    >{\raggedleft\arraybackslash}p{0.30\linewidth}@{}}
+    #1 & \small #2
+  \end{tabularx}\par
+  \vspace{0.15em}
+}
+
+\newcommand{\edudetail}[1]{%
+  \noindent\hspace*{1.15em}$\diamond$ #1\par
+}
+
+\newcommand{\skillcell}[2]{%
+  \textbf{#1}\par
+  #2
+}
+
+\newcommand{\workentry}[2]{%
+  \noindent
+  \begin{tabularx}{\linewidth}
+    {@{}X@{\hspace{0.8em}}
+    >{\raggedleft\arraybackslash}p{0.30\linewidth}@{}}
+    #1 & \small #2
+  \end{tabularx}\par
+  \vspace{0.15em}
+}
+
+\newcommand{\workproject}[1]{%
+  \noindent
+  \hangindent=2.30em
+  \hangafter=1
+  \hspace*{1.15em}\makebox[1.15em][l]{$\diamond$}#1\par
+  \vspace{0.12em}
+}
+
+\newcommand{\workprojectdetail}[1]{%
+  \noindent
+  \hangindent=3.45em
+  \hangafter=1
+  \hspace*{2.30em}\makebox[1.15em][l]{--}#1\par
+  \vspace{0.08em}
+}
+
+\begin{document}
+
+% ── Шапка ─────────────────────────────────────────────
+{\fontsize{24}{28}\selectfont\bfseries Артур Ясеновец}\par
+\vspace{0.08em}
+{\large\bfseries Инженер по информационной безопасности и прикладной криптографии}\par
+\vspace{0.28em}
+\href{mailto:archee.busy@gmail.com}{archee.busy@gmail.com}
+\;\textbullet\;
+\href{https://github.com/iasenovets}{GitHub}
+\;\textbullet\;
+\href{https://iasenovets.github.io/}{Портфолио}
+\;\textbullet\;
+\href{https://orcid.org/0009-0008-0008-3746}{ORCID}
+\;\textbullet\;
+Чунцин, Китай
+\par
+\vspace{0.22em}
+\hrule
+\vspace{0.55em}
+
+% ── Профиль ────────────────────────────────────────────
+\cvrow{Профиль}{%
+  Инженер и исследователь в области информационной безопасности
+  и прикладной криптографии. Разрабатываю на \textbf{Go},
+  \textbf{Python} и \textbf{TypeScript}; имею базовый опыт работы
+  с \textbf{C++} и \textbf{Rust}. Работал над криптографическими
+  протоколами, системами приватного поиска и обработки данных.
+}
+
+\vspace{0.50em}
+
+\cvrow{Навыки}{%
+  \begin{tabularx}{\linewidth}
+    {@{}>{\raggedright\arraybackslash}X
+    @{\hspace{1.2em}}
+    >{\raggedright\arraybackslash}X@{}}
+
+    \skillcell{Стандарты и регуляторика:}{%
+      ГОСТ Р 34.10/34.11, ГОСТ 34.12/34.13;
+      149-ФЗ, 152-ФЗ, 187-ФЗ, 63-ФЗ; FIPS 203--205}
+    &
+    \skillcell{Библиотеки и фреймворки:}{%
+      Lattigo, Microsoft SEAL, OpenFHE, TenSEAL}
+    \\[0.20em]
+
+    \skillcell{Технологии конфиденциальности:}{%
+      Private Information Retrieval (PIR/CPIR),
+      Searchable Symmetric Encryption (SSE)}
+    &
+    \skillcell{Системы и инфраструктура:}{%
+      Linux, Docker, Git, Airflow, S3/MinIO,
+      Hyperledger Fabric}
+    \\[0.20em]
+
+    \skillcell{Гомоморфное шифрование:}{%
+      Brakerski--Gentry--Vaikuntanathan (BGV),
+      Brakerski--Fan--Vercauteren (BFV),
+      Cheon--Kim--Kim--Song (CKKS);
+      анализ безоп-ти IND-CPA, IND-CCA2, EUF-CMA}
+    &
+    \skillcell{Инженерия безопасности:}{%
+      YARA, Chainsaw, анализ вредоносного ПО и журналов,
+      извлечение IoC, сопоставление TTP с MITRE ATT\&CK}
+    \\[0.20em]
+
+    \skillcell{Постквантовая криптография:}{%
+      ML-KEM, ML-DSA, SLH-DSA;
+      LWE/RLWE, Module-LWE, SIS/Module-SIS}
+    &
+    \skillcell{Языки:}{%
+      русский --- родной;
+      \href{https://certs.duolingo.com/751e0ef152565727b6d5fd909699ceaa}{английский --- C1};
+    \href{https://admin.chinesetest.cn/queryScore.do?sid=c2tActR9Wb\%2704b861aefbdc5e9fd0b44afa717d08cbceb0720e582ce25f\%2724d7sWsQ5nVUQSwD}
+        {китайский --- HSK 3}}
+
+  \end{tabularx}
+}
+
+\vspace{0.50em}
+
+\cvrow{Опыт работы}{%
+  \workentry
+    {\textbf{Магистрант-исследователь} @ Группа прикладной криптографии, CQUPT}
+    {сент. 2024--наст. время}
+
+  \workproject{\textbf{BGV-PIR для Hyperledger Fabric}}
+  \workprojectdetail{Спроектировал и реализовал на Go вычислительный PIR-протокол
+  на основе BGV с использованием Lattigo, интегрировав приватное чтение из мирового
+  состояния непосредственно в чейнкод Hyperledger Fabric.}
+  \workprojectdetail{Разработал модель угроз с честным, но любопытным противником
+  (HBC) и проанализировал конфиденциальность запросов на основе IND-CPA-безопасности
+  BGV, включая безопасность повторных запросов и наблюдаемую утечку информации.}
+  % \workprojectdetail{Построил экспериментальный стенд и оценил корректность,
+  % задержку, объём коммуникации, требования к хранению и накладные расходы
+  % развёртывания для нескольких наборов криптографических параметров.}
+
+  \workproject{\textbf{Приватная агрегация для федеративного обучения}}
+  \workprojectdetail{Участвовал в разработке TWAPPA-FRL, объединяющей
+  доверительно-взвешенную агрегацию (TWA) и CKKS-агрегацию с сохранением
+  конфиденциальности (PPA) для совместного обнаружения вторжений,
+  в качестве автора с равным вкладом.}
+  % \workprojectdetail{Объединил взвешивание клиентов на основе доверия
+  % с зашифрованной CKKS-агрегацией обновлений федеративной модели и расшифрованием
+  % только агрегированного результата отдельным центром управления ключами,
+  % не участвующим в обучении.}
+  \workprojectdetail{Разработал модель угроз и анализ безопасности, включая
+  конфиденциальность индивидуальных обновлений, явно определённую утечку,
+  а также предположения и ограничения путей выполнения с PPA.}
+
+  \workproject{\textbf{Верифицируемое многоключевое SSE}}
+  \workprojectdetail{Участвовал в разработке EVMK-SSE --- эффективной схемы
+  многоключевого шифрования с возможностью поиска на основе OT и ослабленной OPRF,
+  не зависящей от клиента.}
+  \workprojectdetail{Проверил анализ безопасности, охватывающий конфиденциальность
+  запросов, явную утечку шаблонов поиска и доступа, а также верифицируемость
+  результатов при наличии вредоносного облачного сервера.}
+}
+
+\vspace{0.50em}
+
+\cvrow{}{%
+  \workentry
+    {\textbf{Стажёр по информационной безопасности} @
+    \href{https://global.ptsecurity.com/en/}{Positive Technologies}}
+    {авг. 2024--февр. 2025}
+
+  \workproject{Разработал на Python инструменты с unit-покрытием для
+  проверки путей Windows, сетевых конфигураций и политик контроля конечных устройств.}
+  \workproject{Построил конвейер обработки вредоносного ПО на базе Airflow:
+  сбор образцов из VX-Underground, хранение артефактов в S3/MinIO
+  и сканирование правилами YARA.}
+  \workproject{Проводил анализ EVTX, Powershell и вредоносные VBA-макросы;
+  извлекал IoC и сопоставлял TTP с MITRE ATT\&CK для CVE-2020-5902, CVE-2023-38831.}
+}
+
+\vspace{0.50em}
+
+\cvrow{}{%
+  \workentry
+    {\textbf{Инженер-программист} @ \href{https://academai.ru/}{AcademAI}}
+    {авг. 2023--авг. 2024}
+
+  \workproject{Реализовал REST API на Python и конвейер генерации на базе LangChain
+  с использованием структурированных промптов и асинхронной оркестрации LLM.}
+  \workproject{Разработал слой приложения на Next.js, TypeScript,
+  Prisma и Auth.js, включая аутентификацию и постоянное хранение данных курсов.}
+  \workproject{Настроил CI/CD с использованием Docker и GitHub Actions.}
+}
+
+\vspace{0.75em}
+
+\cvrow{Образование}{%
+  \raggedright
+
+  % ── Магистратура ────────────────────────────────
+  \textbf{Чунцинский университет почты и телекоммуникаций},
+  Чунцин, Китай\par
+  \textit{Школа кибербезопасности и информационного права}\par
+  \vspace{0.12em}
+
+  \eduentry
+    {$\diamond$ \textbf{Магистратура} по направлению «Сетевая и информационная безопасность»}
+    {сент. 2024--июль 2027 \textit{(ожидается)}}
+
+  \edudetail{Научный руководитель:
+    \href{https://faculty.cqupt.edu.cn/tangfei/en/index.htm}{проф. Тан Фэй}}
+  \edudetail{Средний балл: 3,98/4,00}
+
+  \vspace{0.48em}
+
+  % ── Бакалавриат ─────────────────────────────────
+  \textbf{Ухтинский государственный технический университет},
+  Ухта, Россия\par
+  \vspace{0.12em}
+
+  \eduentry
+    {$\diamond$ \textbf{Бакалавриат} по направлению «Информационные системы и технологии»}
+    {март 2022--июнь 2024}
+
+  \edudetail{Средний балл: 4,49/5,00}
+
+  \vspace{0.48em}
+
+  % % ── Предыдущее обучение в бакалавриате ─────────
+  % \textbf{Санкт-Петербургский государственный университет телекоммуникаций
+  % им. проф. М.\,А. Бонч-Бруевича},
+  % Санкт-Петербург, Россия\par
+  % \vspace{0.12em}
+
+  % \eduentry
+  %   {$\diamond$ \textbf{Обучение в бакалавриате} по направлению
+  %   «Информационные системы и технологии»}
+  %   {сент. 2020--март 2022}
+}
+
+\vspace{0.75em}
+
+\cvrow{Публикации}{%
+  \pub{\underbar{Artur Iasenovets}, Fei Tang, H. Zhu, P. Wang, and L. Liu.}
+  {``\href{https://arxiv.org/abs/2511.02656}
+  {Bringing Private Reads to Hyperledger Fabric via Private Information Retrieval},''
+  arXiv:2511.02656, 2025. Рукопись находится на рецензировании.}
+
+  \pub{H. Zhu, F. Tang, W. Qin, J. Shan, P. Wang, and \underbar{Artur Iasenovets}.}
+  {``\href{https://doi.org/10.1007/s44443-025-00405-8}
+  {EVMK-SSE: Efficient and Verifiable Multi-Keyword Symmetric Searchable Encryption},''
+  \textit{Journal of King Saud University -- Computer and Information Sciences}, 2025.}
+
+  \pub{\underbar{Artur Iasenovets} and Fei Tang.}
+  {``\href{https://doi.org/10.60797/IRJ.2026.163.57}
+  {MFCTIIF: Multi-Feed Cyber Threat Intelligence Integration Framework},''
+  \textit{International Research Journal}, № 1 (163), 2026.}
+
+  % \vspace{0.15em}
+  % \textbf{Рукопись в подготовке}\par\vspace{0.25em}
+
+  % \pub{Piyumi M. S. Rajapaksha$^{*}$, \underbar{Artur Iasenovets$^{*}$},
+  % Yinxue Yi, and Fei Tang.}
+  % {``TWAPPA-FRL: Trust-Weighted Privacy-Preserving Aggregation for Federated
+  % Reinforcement Learning in Collaborative Intrusion Detection,''
+  % рукопись в подготовке, 2026. $^{*}$Равный вклад.}
+}
+
+\vspace{0.75em}
+
+\cvrow{Награды и\\достижения}{%
+  \entry
+    {\textbf{Стипендия правительства КНР (CSC) для обучения в магистратуре}}
+    {2024--2027}
+  Полная стипендия на весь период обучения в магистратуре CQUPT.
+
+  \vspace{0.45em}
+  \entry
+    {\textbf{Победитель конкурса EdTech-проектов с проектом YouKnow}}
+    {2023}
+  Победа в конкурсе, организованном Физтех-школой МФТИ,
+  Фондом развития Физтех-школ и Startech.Base.
+
+  \vspace{0.45em}
+  \entry
+    {\textbf{Диплом I степени, «Севергеоэкотех»}}
+    {2022}
+  Первое место в секции «Современные информационные технологии»
+  XXIII Международной молодёжной научной конференции.
+
+  \vspace{0.45em}
+  \entry
+    {\textbf{Региональный демо-день Sber Student Accelerator}}
+    {2023}
+  Завершил программу Sber Student Accelerator в составе команды AcademAI
+  и принял участие в региональном демо-дне Северо-Западного округа.
+
+  \vspace{0.3em}
+  \href{https://iasenovets.github.io/files/certificates_selected_en_public_ready_v2.pdf}
+       {\small Подтверждающие сертификаты}
+}
+
+\end{document}

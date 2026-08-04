@@ -40,6 +40,14 @@ AGENTS.md
 reminder.txt
 self-intro.md
 
+# Local workflow artifacts (not CV content)
+/docs/
+/tests/
+/tools/
+/.vscode/
+/lessons.md
+/memory.md
+
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.

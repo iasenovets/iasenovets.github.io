@@ -78,6 +78,11 @@
   \noindent\hspace*{1.15em}$\diamond$ #1\par
 }
 
+\newcommand{\skillcell}[2]{%
+  \textbf{#1}\par
+  #2
+}
+
 \begin{document}
 
 {\fontsize{24}{28}\selectfont\bfseries Артур Ясеновец}\par
@@ -329,36 +334,50 @@
 \vspace{0.8em}
 
 \cvrow{Навыки}{%
-  \renewcommand{\arraystretch}{1.22}
   \begin{tabularx}{\linewidth}
     {@{}>{\raggedright\arraybackslash}X
     @{\hspace{1.2em}}
     >{\raggedright\arraybackslash}X@{}}
 
-    $\diamond$ \textbf{Go, Python, TypeScript:} уверенный уровень
+    \skillcell{Стандарты и регуляторика:}{%
+      ГОСТ Р 34.10/34.11, ГОСТ 34.12/34.13;
+      149-ФЗ, 152-ФЗ, 187-ФЗ, 63-ФЗ; FIPS 203--205}
     &
-    $\diamond$ \textbf{C++, Rust:} базовый уровень
-    \\
+    \skillcell{Библиотеки и фреймворки:}{%
+      Lattigo, Microsoft SEAL, OpenFHE, TenSEAL}
+    \\[0.20em]
 
-    $\diamond$ \textbf{Гомоморфное шифрование:} BGV, BFV, CKKS
+    \skillcell{Технологии конфиденциальности:}{%
+      Private Information Retrieval (PIR/CPIR),
+      Searchable Symmetric Encryption (SSE)}
     &
-    $\diamond$ \textbf{Приватный поиск:} PIR/CPIR, шифрование с возможностью поиска
-    \\
+    \skillcell{Системы и инфраструктура:}{%
+      Linux, Docker, Git, Airflow, S3/MinIO,
+      Hyperledger Fabric}
+    \\[0.20em]
 
-    $\diamond$ \textbf{Библиотеки ГШ:} Lattigo, Microsoft SEAL, OpenFHE, TenSEAL
+    \skillcell{Гомоморфное шифрование:}{%
+      Brakerski--Gentry--Vaikuntanathan (BGV),
+      Brakerski--Fan--Vercauteren (BFV),
+      Cheon--Kim--Kim--Song (CKKS);
+      анализ безоп-ти IND-CPA, IND-CCA2, EUF-CMA}
     &
-    $\diamond$ \textbf{Системы:} Hyperledger Fabric, Linux, Docker, Git
-    \\
+    \skillcell{Инженерия безопасности:}{%
+      YARA, Chainsaw, анализ вредоносного ПО и журналов,
+      извлечение IoC, сопоставление TTP с MITRE ATT\&CK}
+    \\[0.20em]
 
-    $\diamond$ \textbf{Инженерия безопасности:} YARA, Chainsaw,
-    анализ вредоносного ПО и журналов
+    \skillcell{Постквантовая криптография:}{%
+      ML-KEM, ML-DSA, SLH-DSA;
+      LWE/RLWE, Module-LWE, SIS/Module-SIS}
     &
-    $\diamond$ \textbf{Языки:} русский (родной),
-    \href{https://iasenovets.github.io/files/toefl_8cd5f4a2b8ec8f34da49ea0faeef43f1.pdf}
-        {английский (C1)},
+    \skillcell{Языки:}{%
+      русский --- родной;
+      \href{https://iasenovets.github.io/files/toefl_8cd5f4a2b8ec8f34da49ea0faeef43f1.pdf}{английский --- C1};
     \href{https://admin.chinesetest.cn/queryScore.do?sid=c2tActR9Wb\%2704b861aefbdc5e9fd0b44afa717d08cbceb0720e582ce25f\%2724d7sWsQ5nVUQSwD}
-        {китайский (HSK 3)}
+        {китайский --- HSK 3}}
   \end{tabularx}
 }
+
 
 \end{document}

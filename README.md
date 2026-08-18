@@ -1,14 +1,10 @@
-# Graduate Researcher | Applied Cryptography
+# Information Security and Applied Cryptography Engineer
 
 [Home](./) · [Study Plan](./study-plan) · [PIR Scheme Notes](./pir-schemes)
 
-[![ORCID](https://img.shields.io/badge/ORCID-0009--0008--0008--3746-brightgreen?logo=orcid)](https://orcid.org/0009-0008-0008-3746) [![LinkedIn](https://img.shields.io/badge/LinkedIn-iasenovets-blue?logo=linkedin)](https://www.linkedin.com/in/iasenovets) [![Email](https://img.shields.io/badge/Email-L202420002%40stu.cqupt.edu.cn-red?logo=gmail)](mailto:L202420002@stu.cqupt.edu.cn) [![CV](https://img.shields.io/badge/CV-Download-blue?logo=adobeacrobatreader)](/files/phd/main.pdf)
-
 #### I'm a master's student in Network and Information Security at CQUPT, in Cryptography and Applications Research Group. My interests lie in applied cryptography and privacy-enhancing technologies. I program in Go, Python, and TypeScript; I also have basic experience with C++ and Rust. I am particularly interested in formal security analysis and developing systems for private data search, retrieval and processing based on homomorphic encryption.
 
-## Research Interests
-
-Homomorphic Encryption · Privacy-Enhancing Technologies · Threat Intelligence · Blockchain
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0008--0008--3746-brightgreen?logo=orcid)](https://orcid.org/0009-0008-0008-3746) [![LinkedIn](https://img.shields.io/badge/LinkedIn-iasenovets-blue?logo=linkedin)](https://www.linkedin.com/in/iasenovets) [![Email](https://img.shields.io/badge/Email-L202420002%40stu.cqupt.edu.cn-red?logo=gmail)](mailto:L202420002@stu.cqupt.edu.cn) [![CV](https://img.shields.io/badge/CV-Download-blue?logo=adobeacrobatreader)](/files/phd/main.pdf)
 
 ## Education
 

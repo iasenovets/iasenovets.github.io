@@ -4,6 +4,9 @@
 @import "{{ site.theme }}";
 
 section p,
+section li,
+section h2#projects + table td,
+section h2#achievements + p + table td,
 section > h4:first-of-type {
   text-align: justify;
   text-justify: inter-word;

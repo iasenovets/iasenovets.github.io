@@ -4,15 +4,14 @@
 
 #### I'm a master's student in Network and Information Security at CQUPT, in Cryptography and Applications Research Group. My interests lie in applied cryptography and privacy-enhancing technologies. I program in Go, Python, and TypeScript; I also have basic experience with C++ and Rust. I am particularly interested in formal security analysis and developing systems for private data search, retrieval and processing based on homomorphic encryption.
 
-[![ORCID](https://img.shields.io/badge/ORCID-0009--0008--0008--3746-brightgreen?logo=orcid)](https://orcid.org/0009-0008-0008-3746) [![LinkedIn](https://img.shields.io/badge/LinkedIn-iasenovets-blue?logo=linkedin)](https://www.linkedin.com/in/iasenovets) [![Email](https://img.shields.io/badge/Email-L202420002%40stu.cqupt.edu.cn-red?logo=gmail)](mailto:L202420002@stu.cqupt.edu.cn) [![TOEFL](https://img.shields.io/badge/TOEFL-C1-blue)](/files/toefl_8cd5f4a2b8ec8f34da49ea0faeef43f1.pdf) [![CV](https://img.shields.io/badge/CV-Download-blue?logo=adobeacrobatreader)](/files/phd/main.pdf)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0008--0008--3746-brightgreen?logo=orcid)](https://orcid.org/0009-0008-0008-3746) [![Email](https://img.shields.io/badge/Email-L202420002%40stu.cqupt.edu.cn-red?logo=gmail)](mailto:L202420002@stu.cqupt.edu.cn) [![LinkedIn](https://img.shields.io/badge/LinkedIn-iasenovets-blue?logo=linkedin)](https://www.linkedin.com/in/iasenovets) [![TOEFL](https://img.shields.io/badge/TOEFL-C1-blue)](/files/toefl_8cd5f4a2b8ec8f34da49ea0faeef43f1.pdf) [![CV](https://img.shields.io/badge/CV-Download-blue?logo=adobeacrobatreader)](/files/phd/main.pdf)
 
 ## Education
 
-- M.S., Network & Information Security | [CQUPT](https://www.cqupt.edu.cn/en/) — Supervisor: [Prof. Tang Fei](https://faculty.cqupt.edu.cn/tangfei/en/index.htm) | GPA: 3.9/4.0 _(2024 – Present)_
-- B.S., Information Systems and Technologies | Ukhta State Technical University | GPA: 4.5/5.0 (3.6/4.0) _(2022 – 2024)_
-- B.S., Information Systems and Technologies | St. Petersburg State University of Telecommunications _(2020 – 2022)_
+- M.S., Network & Information Security | [CQUPT](https://www.cqupt.edu.cn/en/) Supervisor: [Prof. Tang Fei](https://faculty.cqupt.edu.cn/tangfei/en/index.htm) | GPA: 3.98/4.0 _(2024 – Present)_
+- B.S., Information Systems and Technologies | Ukhta State Technical University | GPA: 4.49/5.0 _(2022 – 2024)_
 
-## Publications
+## Selected Publications
 
 | Title                                                                            | Venue                                                  | Links                                                                                                |
 | -------------------------------------------------------------------------------- | ------------------------------------------------------ | ---------------------------------------------------------------------------------------------------- |
@@ -24,8 +23,7 @@
 
 **Graduate Researcher @ [CQUPT](https://www.cqupt.edu.cn/en/) — Applied Cryptography Group (_September 2024 – Present_)**
 
-- Designed and implemented a BGV homomorphic encryption-based PIR scheme in Go using Lattigo, integrated natively into Hyperledger Fabric chaincode.
-- Submitted 3 research papers spanning homomorphic encryption, searchable encryption, and cyber threat intelligence, including one published in a peer-reviewed journal.
+- Submitted 4 research papers spanning private information retrieval, searchable encryption, secure federated learning, and cyber threat intelligence.
 - Contributing to lab grant and project work in privacy-preserving computation and applied cryptography.
 - Participating in weekly research seminars, paper reviews, and collaborative research discussions within the group.
 

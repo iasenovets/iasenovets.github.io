@@ -21,9 +21,9 @@
 
 ## Work Experience
 
-- **Graduate Researcher**, [CQUPT](https://www.cqupt.edu.cn/en/) — Applied Cryptography Group _(September 2024–Present)_
-- **Security Intern**, [Positive Technologies](https://pt-start.ptsecurity.com/) — Remote _(August 2024–February 2025)_
-- **Software Engineer**, [AcademAI](https://academai.ru) — Remote _(August 2023–August 2024)_
+- **Graduate Researcher**, [Chongqing University of Posts and Telecommunications](https://www.cqupt.edu.cn/en/) — _September 2024–Present_
+- **Security Intern**, [Positive Technologies](https://pt-start.ptsecurity.com/) — _August 2024–February 2025_
+- **Software Engineer**, [AcademAI](https://academai.ru) — _August 2023–August 2024_
 
 ## Projects
 
@@ -36,11 +36,9 @@
 
 Supporting documents: [Selected certificates with English summaries](/files/certificates_selected_en_public_ready_v2.pdf).
 
-| Title                                                                                                                                    | Description                                                                                                                  |
-| ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| Chinese Government Scholarship for Graduate Studies                                                                                      | Awarded a full scholarship by the Chinese government for the entire duration of the M.S. program at CQUPT (2024–2027).       |
-| 5 Science Conferences                                                                                                                    | Won 3 consecutive first places in paper evaluations at various scientific conferences while at USTU (Apr. 2022 – Apr. 2023). |
-| [Kaspersky Cyberimmunity Hackathon 2.0](https://github.com/artias13/Events/blob/main/2023/kaspersky_hackathon_2023_winter.png)           | Participated in Kaspersky’s Cyberimmunity Hackathon in Fall 2023, placing 11th out of 100+ teams.                            |
-| [MIPT & Sber Phystech GigaChat Challenge Hackathon](https://github.com/artias13/Events/blob/main/2023/mfti_ai_hackathon_2023_winter.png) | Developed [YouKnow](https://youknow.academai.ru) using GigaChat and Kandinsky APIs within a 48-hour sprint.                  |
-| [iTechPred 2023 Accelerator](https://github.com/artias13/Events/blob/main/2023/itechpred_2023_summer-winter.png)                         | Completed Petrozavodsk University’s acceleration program on technological entrepreneurship with the YouKnow project.         |
-| [SberStudent Accelerator](https://github.com/artias13/Events/blob/main/2023/sberstudent_academai_2023_fall.png)                          | Presented AcademAI at the regional demo day of the North-West District of the Sber Student Accelerator.                      |
+- **Chinese Government Scholarship (CSC) for Graduate Studies** — Full scholarship for the entire M.S. program at CQUPT — _2024–2027_
+- **[Sber Student Accelerator Regional Demo Day](https://github.com/artias13/Events/blob/main/2023/sberstudent_academai_2023_fall.png)** — Completed the Sber Student Accelerator with the AcademAI team and participated in the North-Western District regional demo day — _2023_
+- **Winner, EdTech Project Competition** — Presented an LLM-based educational platform and won the competition organized by the MIPT Phystech School, the Fund for Development of Phystech Schools, and Startech.Base — _2023_
+- **[MIPT & Sber Phystech GigaChat Challenge](https://github.com/artias13/Events/blob/main/2023/mfti_ai_hackathon_2023_winter.png)** — Developed an LLM-based educational platform using GigaChat and Kandinsky APIs within a 48-hour sprint — _2023_
+- **[Kaspersky Cyberimmunity Hackathon 2.0](https://github.com/artias13/Events/blob/main/2023/kaspersky_hackathon_2023_winter.png)** — Placed 11th out of 100+ teams for developing traffic-monitoring solutions for low-altitude airspace security — _2023_
+- **First Degree Diploma, Severgeoecotech** — Awarded first place in the Modern Information Technologies section of the 23rd International Youth Scientific Conference — _2022_

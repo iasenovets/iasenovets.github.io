@@ -23,24 +23,10 @@
 
 ## Work Experience
 
-<ul>
-  <li>
-    <strong>Graduate Researcher</strong>, <a href="https://www.cqupt.edu.cn/en/">CQUPT</a>
-    <div align="right"><em>September 2024–Present</em></div>
-  </li>
-  <li>
-    <strong>Security Intern</strong>, <a href="https://pt-start.ptsecurity.com/">Positive Technologies</a>
-    <div align="right"><em>August 2024–February 2025</em></div>
-  </li>
-  <li>
-    <strong>Software Engineer</strong>, <a href="https://academai.ru">AcademAI</a>
-    <div align="right"><em>September 2023–August 2024</em></div>
-  </li>
-  <li>
-    <strong>Junior Software Engineer</strong>, <a href="https://zvekprogress.ru/">ZVEK “Progress” LLC</a>
-    <div align="right"><em>May 2022–August 2023</em></div>
-  </li>
-</ul>
+- **Graduate Researcher**, [CQUPT](https://www.cqupt.edu.cn/en/) — _September 2024–Present_
+- **Security Intern**, [Positive Technologies](https://pt-start.ptsecurity.com/) — _August 2024–February 2025_
+- **Software Engineer**, [AcademAI](https://academai.ru) — _September 2023–August 2024_
+- **Junior Software Engineer**, [ZVEK “Progress” LLC](https://zvekprogress.ru/) — _May 2022–August 2023_
 
 ## Projects
 

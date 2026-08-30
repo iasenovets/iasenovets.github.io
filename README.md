@@ -18,17 +18,19 @@
 - [**Bringing Private Reads to Hyperledger Fabric via Private Information Retrieval**](https://arxiv.org/abs/2511.02656) — arXiv preprint (submitted to IEEE), Nov. 2025 · [Repository](https://github.com/iasenovets/2_2_HLF_CPIR)
 - [**EVMK-SSE: Efficient and Verifiable Multi-Keyword Symmetric Searchable Encryption**](https://doi.org/10.1007/s44443-025-00405-8) — _Journal of King Saud University — Computer and Information Sciences_, Dec. 2025
 - [**MFCTIIF: Multi-Feed Cyber Threat Intelligence Integration Framework**](https://doi.org/10.60797/IRJ.2026.163.57) — _International Research Journal_, No. 1 (163), Jan. 2026
+- **TWAPPA-FRL: Trust-Weighted Privacy-Preserving Aggregation for Federated Reinforcement Learning in Collaborative Intrusion Detection** — Manuscript submitted to IEEE, 2026 · Equal contribution
 
 ## Work Experience
 
 - **Graduate Researcher**, [Chongqing University of Posts and Telecommunications](https://www.cqupt.edu.cn/en/) — _September 2024–Present_
 - **Security Intern**, [Positive Technologies](https://pt-start.ptsecurity.com/) — _August 2024–February 2025_
-- **Software Engineer**, [AcademAI](https://academai.ru) — _August 2023–August 2024_
+- **Software Engineer**, [AcademAI](https://academai.ru) — _September 2023–August 2024_
+- **Junior Software Engineer**, [ZVEK “Progress” LLC](https://zvekprogress.ru/) — _May 2022–August 2023_
 
 ## Projects
 
-- **[HLF-CPIR](https://github.com/iasenovets/2_2_HLF_CPIR)** — Private world-state queries in Hyperledger Fabric via [private information retrieval](https://arxiv.org/abs/2511.02656) — _Go, Docker, Hyperledger Fabric, Lattigo, FHE, PIR_
-- **[YouKnow](https://github.com/AcademAI/youknow)** — LLM application for generating personalized educational courses — _Python, Next.js, TypeScript, Prisma, Auth.js, Flask, AsyncIO, LangChain_
+- **[HLF-CPIR](https://github.com/iasenovets/2_2_HLF_CPIR):** Enables private world-state queries in Hyperledger Fabric using [private information retrieval](https://arxiv.org/abs/2511.02656).
+- **[YouKnow](https://github.com/AcademAI/youknow):** LLM-powered platform for generating personalized educational courses.
 
 ## Achievements
 

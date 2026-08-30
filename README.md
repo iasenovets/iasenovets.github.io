@@ -22,23 +22,37 @@
 
 ## Work Experience
 
-- **Graduate Researcher**, [Chongqing University of Posts and Telecommunications](https://www.cqupt.edu.cn/en/) — _September 2024–Present_
-- **Security Intern**, [Positive Technologies](https://pt-start.ptsecurity.com/) — _August 2024–February 2025_
-- **Software Engineer**, [AcademAI](https://academai.ru) — _September 2023–August 2024_
-- **Junior Software Engineer**, [ZVEK “Progress” LLC](https://zvekprogress.ru/) — _May 2022–August 2023_
+<table width="100%">
+  <tr>
+    <td><strong>Graduate Researcher</strong>, <a href="https://www.cqupt.edu.cn/en/">CQUPT</a></td>
+    <td align="right"><em>September 2024–Present</em></td>
+  </tr>
+  <tr>
+    <td><strong>Security Intern</strong>, <a href="https://pt-start.ptsecurity.com/">Positive Technologies</a></td>
+    <td align="right"><em>August 2024–February 2025</em></td>
+  </tr>
+  <tr>
+    <td><strong>Software Engineer</strong>, <a href="https://academai.ru">AcademAI</a></td>
+    <td align="right"><em>September 2023–August 2024</em></td>
+  </tr>
+  <tr>
+    <td><strong>Junior Software Engineer</strong>, <a href="https://zvekprogress.ru/">ZVEK “Progress” LLC</a></td>
+    <td align="right"><em>May 2022–August 2023</em></td>
+  </tr>
+</table>
 
 ## Projects
 
-- **[HLF-CPIR](https://github.com/iasenovets/2_2_HLF_CPIR):** Enables private world-state queries in Hyperledger Fabric using [private information retrieval](https://arxiv.org/abs/2511.02656).
-- **[YouKnow](https://github.com/AcademAI/youknow):** LLM-powered platform for generating personalized educational courses.
+- **[HLF-CPIR](https://github.com/iasenovets/2_2_HLF_CPIR):** Private world-state queries in Hyperledger Fabric using [private information retrieval](https://arxiv.org/abs/2511.02656).
+- **[YouKnow](https://github.com/AcademAI/youknow):** LLM-based platform for generating personalized educational courses.
 
 ## Achievements
 
 Supporting documents: [Selected certificates with English summaries](/files/certificates_selected_en_public_ready_v2.pdf).
 
 - **Chinese Government Scholarship (CSC) for Graduate Studies** — Full scholarship for the entire M.S. program at CQUPT — _2024–2027_
-- **[Sber Student Accelerator Regional Demo Day](https://github.com/artias13/Events/blob/main/2023/sberstudent_academai_2023_fall.png)** — Completed the Sber Student Accelerator with the AcademAI team and participated in the North-Western District regional demo day — _2023_
+- **Sber Student Accelerator Regional Demo Day** — Completed the Sber Student Accelerator with the AcademAI team and participated in the North-Western District regional demo day — _2023_
 - **Winner, EdTech Project Competition** — Presented an LLM-based educational platform and won the competition organized by the MIPT Phystech School, the Fund for Development of Phystech Schools, and Startech.Base — _2023_
-- **[MIPT & Sber Phystech GigaChat Challenge](https://github.com/artias13/Events/blob/main/2023/mfti_ai_hackathon_2023_winter.png)** — Developed an LLM-based educational platform using GigaChat and Kandinsky APIs within a 48-hour sprint — _2023_
-- **[Kaspersky Cyberimmunity Hackathon 2.0](https://github.com/artias13/Events/blob/main/2023/kaspersky_hackathon_2023_winter.png)** — Placed 11th out of 100+ teams for developing traffic-monitoring solutions for low-altitude airspace security — _2023_
+- **MIPT & Sber Phystech GigaChat Challenge** — Developed an LLM-based educational platform using GigaChat and Kandinsky APIs within a 48-hour sprint — _2023_
+- **Kaspersky Cyberimmunity Hackathon 2.0** — Placed 11th out of 100+ teams for developing traffic-monitoring solutions for low-altitude airspace security — _2023_
 - **First Degree Diploma, Severgeoecotech** — Awarded first place in the Modern Information Technologies section of the 23rd International Youth Scientific Conference — _2022_

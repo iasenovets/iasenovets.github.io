@@ -10,8 +10,9 @@
 
 ## Education
 
-- **M.S. in Network & Information Security**, [CQUPT](https://www.cqupt.edu.cn/en/) — Supervisor: [Prof. Tang Fei](https://faculty.cqupt.edu.cn/tangfei/en/index.htm); GPA: 3.98/4.0 _(2024–Present)_
-- **B.S. in Information Systems and Technologies**, Ukhta State Technical University — GPA: 4.49/5.0 _(2022–2024)_
+- **M.S. in Network & Information Security**, [CQUPT](https://www.cqupt.edu.cn/en/) — Supervisor: [Prof. Tang Fei](https://faculty.cqupt.edu.cn/tangfei/en/index.htm); GPA: 3.98/4.0 — _Sep. 2024–Jul. 2027 (expected)_
+- **B.S. in Information Systems and Technologies**, Ukhta State Technical University — GPA: 4.49/5.0 — _Mar. 2022–Jun. 2024_
+- **B.S. studies in Information Systems and Technologies**, St. Petersburg State University of Telecommunications — _Sep. 2020–Mar. 2022 (transferred)_
 
 ## Selected Publications
 
@@ -22,24 +23,24 @@
 
 ## Work Experience
 
-<table width="100%">
-  <tr>
-    <td><strong>Graduate Researcher</strong>, <a href="https://www.cqupt.edu.cn/en/">CQUPT</a></td>
-    <td align="right"><em>September 2024–Present</em></td>
-  </tr>
-  <tr>
-    <td><strong>Security Intern</strong>, <a href="https://pt-start.ptsecurity.com/">Positive Technologies</a></td>
-    <td align="right"><em>August 2024–February 2025</em></td>
-  </tr>
-  <tr>
-    <td><strong>Software Engineer</strong>, <a href="https://academai.ru">AcademAI</a></td>
-    <td align="right"><em>September 2023–August 2024</em></td>
-  </tr>
-  <tr>
-    <td><strong>Junior Software Engineer</strong>, <a href="https://zvekprogress.ru/">ZVEK “Progress” LLC</a></td>
-    <td align="right"><em>May 2022–August 2023</em></td>
-  </tr>
-</table>
+<ul>
+  <li>
+    <strong>Graduate Researcher</strong>, <a href="https://www.cqupt.edu.cn/en/">CQUPT</a>
+    <div align="right"><em>September 2024–Present</em></div>
+  </li>
+  <li>
+    <strong>Security Intern</strong>, <a href="https://pt-start.ptsecurity.com/">Positive Technologies</a>
+    <div align="right"><em>August 2024–February 2025</em></div>
+  </li>
+  <li>
+    <strong>Software Engineer</strong>, <a href="https://academai.ru">AcademAI</a>
+    <div align="right"><em>September 2023–August 2024</em></div>
+  </li>
+  <li>
+    <strong>Junior Software Engineer</strong>, <a href="https://zvekprogress.ru/">ZVEK “Progress” LLC</a>
+    <div align="right"><em>May 2022–August 2023</em></div>
+  </li>
+</ul>
 
 ## Projects
 

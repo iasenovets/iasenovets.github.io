@@ -27,10 +27,8 @@
 
 ## Projects
 
-| Title                                                  | Description                                                                         | Technologies                                                            |
-| ------------------------------------------------------ | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| [HLF-CPIR](https://github.com/iasenovets/2_2_HLF_CPIR) | Source code and scripts for [BGV-based PIR paper](https://arxiv.org/abs/2511.02656) | Go, Docker, Hyperledger Fabric, Lattigo, FHE, PIR                       |
-| [YouKnow](https://github.com/AcademAI/youknow)         | LLM-app for generating personalized educational courses                             | Python, Next.js, TypeScript, Prisma, Auth.js, Flask, AsyncIO, Langchain |
+- **[HLF-CPIR](https://github.com/iasenovets/2_2_HLF_CPIR)** — Private world-state queries in Hyperledger Fabric via [private information retrieval](https://arxiv.org/abs/2511.02656) — _Go, Docker, Hyperledger Fabric, Lattigo, FHE, PIR_
+- **[YouKnow](https://github.com/AcademAI/youknow)** — LLM application for generating personalized educational courses — _Python, Next.js, TypeScript, Prisma, Auth.js, Flask, AsyncIO, LangChain_
 
 ## Achievements
 

@@ -4,9 +4,9 @@
 
 #### I'm a master's student in Network and Information Security at CQUPT, in Cryptography and Applications Research Group with 4+ years of experience in software and security engineering. My interests lie in applied cryptography and privacy-enhancing technologies. I develop in Go, Python, Rust, and TypeScript, with some experience in C++. I translate cryptographic protocols from papers into code, conduct security, correctness and leakage analysis, and develop systems for private data search, retrieval, and processing based on homomorphic encryption.
 
-**Research interests:** homomorphic encryption, private information retrieval, searchable encryption, private pattern matching, privacy-enhancing technologies, blockchain privacy.
-
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0008--0008--3746-brightgreen?logo=orcid)](https://orcid.org/0009-0008-0008-3746) [![Email](https://img.shields.io/badge/Email-L202420002%40stu.cqupt.edu.cn-red?logo=gmail)](mailto:L202420002@stu.cqupt.edu.cn) [![LinkedIn](https://img.shields.io/badge/LinkedIn-iasenovets-blue?logo=linkedin)](https://www.linkedin.com/in/iasenovets) [![TOEFL](https://img.shields.io/badge/TOEFL-C1-blue)](/files/toefl_8cd5f4a2b8ec8f34da49ea0faeef43f1.pdf) [![CV](https://img.shields.io/badge/CV-Download-blue?logo=adobeacrobatreader)](/files/phd/main.pdf)
+
+**Research interests:** homomorphic encryption, private information retrieval, searchable encryption, private pattern matching, privacy-enhancing technologies, blockchain privacy.
 
 ## Education
 
@@ -15,11 +15,9 @@
 
 ## Selected Publications
 
-| Title                                                                            | Venue                                                  | Links                                                                                                |
-| -------------------------------------------------------------------------------- | ------------------------------------------------------ | ---------------------------------------------------------------------------------------------------- |
-| Bringing Private Reads to Hyperledger Fabric via Private Information Retrieval   | arXiv preprint (submitted to IEEE), Nov. 2025          | [arXiv](https://arxiv.org/abs/2511.02656) · [Repository](https://github.com/iasenovets/2_2_HLF_CPIR) |
-| EVMK-SSE: Efficient and Verifiable Multi-Keyword Symmetric Searchable Encryption | J. King Saud Univ. Comput. Inf. Sci., Dec. 2025        | [DOI](https://doi.org/10.1007/s44443-025-00405-8)                                                    |
-| MFCTIIF: Multi-Feed Cyber Threat Intelligence Integration Framework              | International Research Journal, No. 1 (163), Jan. 2026 | [DOI](https://doi.org/10.60797/IRJ.2026.163.57)                                                      |
+- [**Bringing Private Reads to Hyperledger Fabric via Private Information Retrieval**](https://arxiv.org/abs/2511.02656) — arXiv preprint (submitted to IEEE), Nov. 2025 · [Repository](https://github.com/iasenovets/2_2_HLF_CPIR)
+- [**EVMK-SSE: Efficient and Verifiable Multi-Keyword Symmetric Searchable Encryption**](https://doi.org/10.1007/s44443-025-00405-8) — _Journal of King Saud University — Computer and Information Sciences_, Dec. 2025
+- [**MFCTIIF: Multi-Feed Cyber Threat Intelligence Integration Framework**](https://doi.org/10.60797/IRJ.2026.163.57) — _International Research Journal_, No. 1 (163), Jan. 2026
 
 ## Work Experience
 

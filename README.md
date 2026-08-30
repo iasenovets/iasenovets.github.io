@@ -1,15 +1,17 @@
-# Information Security and Applied Cryptography Engineer
+# Information Security Research Engineer
 
-[Home](./) · [Study Plan](./study-plan) · [PIR Scheme Notes](./pir-schemes)
+[Home](./) <!-- · [Study Plan](./study-plan) -->  · [PIR Notes](./pir-schemes)
 
-#### I'm a master's student in Network and Information Security at CQUPT, in Cryptography and Applications Research Group. My interests lie in applied cryptography and privacy-enhancing technologies. I program in Go, Python, and TypeScript; I also have basic experience with C++ and Rust. I am particularly interested in formal security analysis and developing systems for private data search, retrieval and processing based on homomorphic encryption.
+#### I'm a master's student in Network and Information Security at CQUPT, in Cryptography and Applications Research Group with 4+ years of experience in software and security engineering. My interests lie in applied cryptography and privacy-enhancing technologies. I develop in Go, Python, Rust, and TypeScript, with some experience in C++. I translate cryptographic protocols from papers into code, conduct security, correctness and leakage analysis, and develop systems for private data search, retrieval, and processing based on homomorphic encryption.
+
+**Research interests:** homomorphic encryption, private information retrieval, searchable encryption, private pattern matching, privacy-enhancing technologies, blockchain privacy.
 
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0008--0008--3746-brightgreen?logo=orcid)](https://orcid.org/0009-0008-0008-3746) [![Email](https://img.shields.io/badge/Email-L202420002%40stu.cqupt.edu.cn-red?logo=gmail)](mailto:L202420002@stu.cqupt.edu.cn) [![LinkedIn](https://img.shields.io/badge/LinkedIn-iasenovets-blue?logo=linkedin)](https://www.linkedin.com/in/iasenovets) [![TOEFL](https://img.shields.io/badge/TOEFL-C1-blue)](/files/toefl_8cd5f4a2b8ec8f34da49ea0faeef43f1.pdf) [![CV](https://img.shields.io/badge/CV-Download-blue?logo=adobeacrobatreader)](/files/phd/main.pdf)
 
 ## Education
 
-- M.S., Network & Information Security | [CQUPT](https://www.cqupt.edu.cn/en/) Supervisor: [Prof. Tang Fei](https://faculty.cqupt.edu.cn/tangfei/en/index.htm) | GPA: 3.98/4.0 _(2024 – Present)_
-- B.S., Information Systems and Technologies | Ukhta State Technical University | GPA: 4.49/5.0 _(2022 – 2024)_
+- **M.S. in Network & Information Security**, [CQUPT](https://www.cqupt.edu.cn/en/) — Supervisor: [Prof. Tang Fei](https://faculty.cqupt.edu.cn/tangfei/en/index.htm); GPA: 3.98/4.0 _(2024–Present)_
+- **B.S. in Information Systems and Technologies**, Ukhta State Technical University — GPA: 4.49/5.0 _(2022–2024)_
 
 ## Selected Publications
 
@@ -21,25 +23,9 @@
 
 ## Work Experience
 
-**Graduate Researcher @ [CQUPT](https://www.cqupt.edu.cn/en/) — Applied Cryptography Group (_September 2024 – Present_)**
-
-- Submitted 4 research papers spanning private information retrieval, searchable encryption, secure federated learning, and cyber threat intelligence.
-- Contributing to lab grant and project work in privacy-preserving computation and applied cryptography.
-- Participating in weekly research seminars, paper reviews, and collaborative research discussions within the group.
-
-**Security Intern @ [Positive Technologies](https://pt-start.ptsecurity.com/) — Remote (_August 2024 – February 2025_)**
-
-- Developed Python regex utilities with unit-test coverage for parsing Windows file paths and network configurations for the MaxPatrol EDR product team; built a Windows Prefetch-based software allowlist/blocklist checker and a Dockerized Telegram bot for automated compliance monitoring.
-- Engineered a Python malware-processing pipeline for the Threat Intelligence team, fetching samples from VX-Underground, storing artifacts in S3/MinIO, and scanning with YARA rules; packaged it as an Airflow DAG for daily automated ingestion.
-- Performed hands-on SOC analysis: investigated attack chains for CVE-2020-5902 and CVE-2023-38831, conducted EVTX log forensics with Chainsaw, deobfuscated PowerShell payloads, analyzed malicious VBA macros with oletools, extracted IoCs, and mapped TTPs to MITRE ATT&CK.
-
-**Software Engineer @ [AcademAI](https://academai.ru) — Remote (_August 2023 – August 2024_)**
-
-- Built a Flask REST API backend where each endpoint encapsulates a structured system prompt, orchestrating asynchronous LLM calls via Langchain to generate individual course components on demand.
-- Built the frontend with Next.js, TypeScript, Prisma, and Auth.js, ensuring seamless user authentication and consistent UI across devices.
-- Built a CI/CD pipeline using GitHub Actions with Docker containerization.
-
-Supporting documents: [Selected certificates with English summaries](/files/certificates_selected_en_public_ready_v2.pdf).
+- **Graduate Researcher**, [CQUPT](https://www.cqupt.edu.cn/en/) — Applied Cryptography Group _(September 2024–Present)_
+- **Security Intern**, [Positive Technologies](https://pt-start.ptsecurity.com/) — Remote _(August 2024–February 2025)_
+- **Software Engineer**, [AcademAI](https://academai.ru) — Remote _(August 2023–August 2024)_
 
 ## Projects
 

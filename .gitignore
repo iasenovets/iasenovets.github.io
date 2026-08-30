@@ -39,6 +39,7 @@ bin-release/
 AGENTS.md
 reminder.txt
 self-intro.md
+/helpers
 
 # Local workflow artifacts (not CV content)
 /docs/
@@ -47,6 +48,8 @@ self-intro.md
 /.vscode/
 /lessons.md
 /memory.md
+study-plan.md
+
 
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important

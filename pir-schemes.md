@@ -34,18 +34,14 @@ title: PIR Scheme Notes
 
 [Home](./) · [PIR Scheme Notes](./pir-schemes)
 
-This page is a public index for my ongoing review of Private Information Retrieval (PIR) schemes. It is intentionally structured as a working research-notes template: detailed writeups, figures, and references can be added gradually.
+This page is a public index for my ongoing review of Private Information Retrieval (PIR) schemes. The goal of this page is to track PIR schemes by construction family, assumptions, preprocessing model, communication cost, server computation, and practical deployment relevance.
 
 Current review status: **reviewed up to Spiral / slide 56 in my PIR deck**.
 
 [![View PIR review slides](https://img.shields.io/badge/PIR_Review-View_slides-blue?logo=microsoftpowerpoint)](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fiasenovets.github.io%2Ffiles%2FPIR_review.pptx)
 [![Download PIR review slides](https://img.shields.io/badge/PIR_Review-Download_PPTX-orange?logo=microsoftpowerpoint)](/files/PIR_review.pptx)
 
-## Purpose
-
-The goal of this page is to track PIR schemes by construction family, assumptions, preprocessing model, communication cost, server computation, and practical deployment relevance.
-
-<details class="pir-collapsible" open markdown="1">
+<details class="pir-collapsible" markdown="1">
 <summary><span id="review-status">Review status</span></summary>
 
 | Area | Status | Notes |

@@ -113,7 +113,7 @@
 % Header
 {\fontsize{24}{28}\selectfont\bfseries Artur Iasenovets}\par
 \vspace{0.08em}
-{\large\bfseries Information Security and Software Engineer}\par
+{\large\bfseries Information Security Research Engineer}\par
 \vspace{0.28em}
 \href{mailto:archee.busy@gmail.com}{archee.busy@gmail.com}
 \;\textbullet\;
@@ -131,9 +131,10 @@
 
 \cvrow{Profile}{%
   4+ years of experience in software and security engineering. I develop in Go,
-  Python, Rust, and TypeScript, with some experience in C++. I build secure
-  applications, automation and data-processing pipelines, and deployment
-  workflows across backend, web, desktop, and infrastructure environments.
+  Python, Rust, and TypeScript, with some experience in C++.
+  I translate cryptographic protocols from papers into code, conduct security,
+  correctness and leakage analysis, and develop systems for private data search,
+  retrieval, and processing based on homomorphic encryption.
 }
 
 \vspace{0.75em}
@@ -186,6 +187,35 @@
 
 \cvrow{Experience}{%
   \workentry
+    {\textbf{Graduate Researcher} @
+    \href{https://www.cqupt.edu.cn/}{CQUPT}}
+    {Sep. 2024--Present}
+
+  \workproject{Designed and implemented BGV-based private information retrieval
+  in Go using Lattigo for private world-state queries in Hyperledger Fabric,
+  with query privacy under an HBC peer model based on the IND-CPA security of BGV.}
+
+  \workproject{Designed the TWAPPA-FRL architecture and implemented CKKS-based
+  private aggregation of DQN model updates using TenSEAL, with IND-CPA-based
+  client-update privacy under an HBC aggregator model and explicit leakage analysis.}
+
+  \workproject{Implemented and validated an FPS/RFPS-style private pattern-search
+  prototype, replacing the DFT-based matching transform under approximate-arithmetic
+  CKKS with an NTT-based matching transform under exact-arithmetic BGV/BFV,
+  with IND-CPA-based pattern privacy under an HBC server model and explicit
+  protocol leakage.}
+
+  % with IND-CPA-based [query/client-update/pattern] privacy under an HBC [peer/aggregator/server] model
+
+  \workproject{Reconstructed preprocessing models, query construction,
+  server computation, and response expansion of PIR protocols such as Piano,
+  FrodoPIR/SimplePIR, XPIR, SealPIR, and OnionPIR, and analyzed their
+  communication/performance trade-offs.}
+}
+\vspace{0.50em}
+
+\cvrow{}{%
+  \workentry
     {\textbf{Information Security Engineer} @
     \href{https://global.ptsecurity.com/en/}{Positive Technologies}}
     {Aug. 2024--Feb. 2025}
@@ -203,8 +233,7 @@
   \workentry
     {\textbf{Software Engineer} @ \href{https://academai.ru/}{AcademAI}}
     {Sep. 2023--Aug. 2024}
-  \workproject{\textbf{\href{https://github.com/AcademAI/youknow}{YouKnow}:}
-  Developed the application layer with a Next.js/TypeScript application,
+  \workproject{Developed the application layer with Next.js/TypeScript application,
   Python/Flask services, PostgreSQL/Prisma data layer, and Auth.js authentication
   for an LLM-based educational platform used by computer science university faculty
   and students.}
@@ -220,12 +249,11 @@
     \href{https://zvekprogress.ru/}{ZVEK ``Progress'' LLC}}
     {May. 2022--Aug. 2023}
 
-  \workproject{Designed and developed a full-stack warehouse QR-inventory system
-  using Python and FastAPI, replacing a manual tracking process entirely.}
+  \workproject{Built a C++17/Crow REST backend with MySQL and Qt 5/QML desktop
+  and mobile clients for a QR-based warehouse inventory system.}
 
-  \workproject{Interviewed 10+ stakeholders to gather requirements and owned the
-  complete development lifecycle: backlogging, architecture design, code reviews,
-  testing, debugging, and production deployment.}
+  \workproject{Supported approximately 1,000 records and 20+ concurrent users;
+  added unit-test coverage, CMake builds, Git-based development, debugging, and Linux deployment.}
 }
 
 \vspace{0.75em}

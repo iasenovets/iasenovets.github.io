@@ -7,11 +7,32 @@ title: PIR Scheme Notes
 .wrapper > header img {
   display: none;
 }
+
+.pir-collapsible {
+  margin: 1.5rem 0;
+}
+
+.pir-collapsible > summary {
+  cursor: pointer;
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 1.25;
+  margin-bottom: 0;
+}
+
+.pir-collapsible[open] > summary {
+  margin-bottom: 0.75rem;
+}
+
+.pir-collapsible > summary:hover,
+.pir-collapsible > summary:focus-visible {
+  color: #267CB9;
+}
 </style>
 
 # PIR Scheme Notes | Research Review
 
-[Home](./) · [Study Plan](./study-plan) · [PIR Scheme Notes](./pir-schemes)
+[Home](./) · [PIR Scheme Notes](./pir-schemes)
 
 This page is a public index for my ongoing review of Private Information Retrieval (PIR) schemes. It is intentionally structured as a working research-notes template: detailed writeups, figures, and references can be added gradually.
 
@@ -24,7 +45,8 @@ Current review status: **reviewed up to Spiral / slide 56 in my PIR deck**.
 
 The goal of this page is to track PIR schemes by construction family, assumptions, preprocessing model, communication cost, server computation, and practical deployment relevance.
 
-## Review status
+<details class="pir-collapsible" open markdown="1">
+<summary><span id="review-status">Review status</span></summary>
 
 | Area | Status | Notes |
 | --- | --- | --- |
@@ -43,7 +65,10 @@ The goal of this page is to track PIR schemes by construction family, assumption
 | KsPIR | Planned | Placeholder. |
 | InsPIRe | Planned | Placeholder. |
 
-## Taxonomy template
+</details>
+
+<details class="pir-collapsible" markdown="1">
+<summary><span id="taxonomy-template">Taxonomy template</span></summary>
 
 | Category | Schemes | Main assumption | Preprocessing model | Notes |
 | --- | --- | --- | --- | --- |
@@ -51,3 +76,5 @@ The goal of this page is to track PIR schemes by construction family, assumption
 | Single-server CPIR | XPIR, SealPIR, OnionPIR, Spiral | LWE/RLWE-style assumptions | No client preprocessing or server-stored client hints, depending on scheme | Practicality depends on communication, server computation, and ciphertext expansion. |
 | Client-stored hint PPIR | FrodoPIR, SimplePIR, Piano | LWE or PRF-based assumptions | Client stores hints after preprocessing | Good online efficiency, but preprocessing and storage model matter. |
 | Silent / server-side PPIR | HintlessPIR, YPIR, KsPIR, InsPIRe | Usually RLWE/LWE-based assumptions | Server-side preprocessing without explicit offline client communication | Interesting for reducing online interaction and amortizing work. |
+
+</details>

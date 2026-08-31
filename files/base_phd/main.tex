@@ -113,7 +113,7 @@
 % Header
 {\fontsize{24}{28}\selectfont\bfseries Artur Iasenovets}\par
 \vspace{0.08em}
-{\large\bfseries Information Security and Software Engineer}\par
+{\large\bfseries Information Security Research Engineer}\par
 \vspace{0.28em}
 \href{mailto:archee.busy@gmail.com}{archee.busy@gmail.com}
 \;\textbullet\;
@@ -131,101 +131,10 @@
 
 \cvrow{Profile}{%
   4+ years of experience in software and security engineering. I develop in Go,
-  Python, Rust, and TypeScript, with some experience in C++. I build secure
-  applications, automation and data-processing pipelines, and deployment
-  workflows across backend, web, desktop, and infrastructure environments.
-}
-
-\vspace{0.75em}
-
-\cvrow{Skills}{%
-  \begin{tabularx}{\linewidth}
-    {@{}>{\raggedright\arraybackslash}X
-    @{\hspace{1.2em}}
-    >{\raggedright\arraybackslash}X@{}}
-
-    \skillcell{Programming:}{%
-      Go, Python, Rust, TypeScript, C++, SQL, Bash, LaTeX}
-    &
-    \skillcell{Cryptographic libraries:}{%
-      Lattigo, SEAL, TenSEAL, OpenFHE, fheanor}
-    \\[0.20em]
-
-    \skillcell{Privacy-enhancing technologies:}{%
-      Private Information Retrieval (PIR/CPIR),
-      Searchable Symmetric Encryption (SSE),
-      Private Pattern Search}
-    &
-    \skillcell{Systems and infrastructure:}{%
-      Linux, Proxmox VE, VMware, Docker,
-      GitHub Actions, GitLab CI/CD, Nginx, Ansible,
-      Airflow, S3, Hyperledger Fabric}
-    \\[0.20em]
-
-    \skillcell{Homomorphic encryption:}{%
-      Brakerski--Gentry--Vaikuntanathan (BGV),
-      Brakerski--Fan--Vercauteren (BFV),
-      Cheon--Kim--Kim--Song (CKKS)}
-    &
-    \skillcell{Security engineering:}{%
-      YARA, Chainsaw, malware/log analysis,
-      MITRE ATT\&CK}
-    \\[0.20em]
-
-    \skillcell{Post-quantum cryptography:}{%
-      ML-KEM, ML-DSA, SLH-DSA; LWE, RLWE}
-    &
-    \skillcell{Languages:}{%
-      Russian --- native;
-      English --- \href{https://iasenovets.github.io/files/toefl_8cd5f4a2b8ec8f34da49ea0faeef43f1.pdf}{C1};
-      Chinese --- \href{https://admin.chinesetest.cn/queryScore.do?sid=c2tActR9Wb\%2704b861aefbdc5e9fd0b44afa717d08cbceb0720e582ce25f\%2724d7sWsQ5nVUQSwD}{HSK3}}
-  \end{tabularx}
-}
-
-\vspace{0.75em}
-
-\cvrow{Experience}{%
-  \workentry
-    {\textbf{Information Security Engineer} @
-    \href{https://global.ptsecurity.com/en/}{Positive Technologies}}
-    {Aug. 2024--Feb. 2025}
-  \workproject{Built an automated malware-processing pipeline with Airflow DAG that
-  collects samples from MalwareBazaar, stores artifacts in S3, and scans them with YARA.}
-  \workproject{Developed Python tools with unit-test coverage for validating
-  Windows paths, network configurations, and endpoint-control policies.}
-  \workproject{Analyzed EVTX logs, PowerShell, and malicious VBA macros; extracted
-  IoCs and mapped TTPs to MITRE ATT\&CK for CVE-2020-5902 and CVE-2023-38831.}
-}
-
-\vspace{0.50em}
-
-\cvrow{}{%
-  \workentry
-    {\textbf{Software Engineer} @ \href{https://academai.ru/}{AcademAI}}
-    {Sep. 2023--Aug. 2024}
-  \workproject{\textbf{\href{https://github.com/AcademAI/youknow}{YouKnow}:}
-  Developed the application layer with a Next.js/TypeScript application,
-  Python/Flask services, PostgreSQL/Prisma data layer, and Auth.js authentication
-  for an LLM-based educational platform used by computer science university faculty
-  and students.}
-  \workproject{Integrated LangChain-based generation workflows with AsyncIO and Redis for
-  asynchronous LLM orchestration and intermediate state management.}
-  \workproject{Containerized the application with Docker, configured Nginx, deployed
-  to cloud-hosted VPS infrastructure, and built the GitHub Actions CI/CD workflow.}
-}
-
-\cvrow{}{%
-  \workentry
-    {\textbf{Junior Software Engineer} @
-    \href{https://zvekprogress.ru/}{ZVEK ``Progress'' LLC}}
-    {May. 2022--Aug. 2023}
-
-  \workproject{Designed and developed a full-stack warehouse QR-inventory system
-  using Python and FastAPI, replacing a manual tracking process entirely.}
-
-  \workproject{Interviewed 10+ stakeholders to gather requirements and owned the
-  complete development lifecycle: backlogging, architecture design, code reviews,
-  testing, debugging, and production deployment.}
+  Python, Rust, and TypeScript, with some experience in C++.
+  I translate cryptographic protocols from papers into code, conduct security,
+  correctness and leakage analysis, and develop systems for private data search,
+  retrieval, and processing based on homomorphic encryption.
 }
 
 \vspace{0.75em}
@@ -343,6 +252,124 @@
   \vspace{0.3em}
   \href{https://iasenovets.github.io/files/certificates_selected_en_public_ready_v2.pdf}
        {\small Supporting certificates}
+}
+
+\vspace{0.50em}
+
+\cvrow{Experience}{%
+  \workentry
+    {\textbf{Graduate Researcher} @
+    \href{https://www.cqupt.edu.cn/}{CQUPT}}
+    {Sep. 2024--Present}
+
+  \workproject{Designed and implemented BGV-based private information retrieval
+  in Go using Lattigo for private world-state queries in Hyperledger Fabric,
+  with query privacy under an HBC peer model based on the IND-CPA security of BGV.}
+
+  \workproject{Designed the TWAPPA-FRL architecture and implemented CKKS-based
+  private aggregation of DQN model updates using TenSEAL, with IND-CPA-based
+  client-update privacy under an HBC aggregator model and explicit leakage analysis.}
+
+  \workproject{Implemented and validated an FPS/RFPS-style private pattern-search
+  prototype, replacing the DFT-based matching transform under approximate-arithmetic
+  CKKS with an NTT-based matching transform under exact-arithmetic BGV/BFV,
+  with IND-CPA-based pattern privacy under an HBC server model and explicit
+  protocol leakage.}
+
+  % with IND-CPA-based [query/client-update/pattern] privacy under an HBC [peer/aggregator/server] model
+
+  \workproject{Reconstructed preprocessing models, query construction,
+  server computation, and response expansion of PIR protocols such as Piano,
+  FrodoPIR/SimplePIR, XPIR, SealPIR, and OnionPIR, and analyzed their
+  communication/performance trade-offs.}
+}
+\vspace{0.50em}
+
+\cvrow{}{%
+  \workentry
+    {\textbf{Information Security Engineer} @
+    \href{https://global.ptsecurity.com/en/}{Positive Technologies}}
+    {Aug. 2024--Feb. 2025}
+  \workproject{Built an automated malware-processing pipeline with Airflow DAG that
+  collects samples from MalwareBazaar, stores artifacts in S3, and scans them with YARA.}
+  \workproject{Developed Python tools with unit-test coverage for validating
+  Windows paths, network configurations, and endpoint-control policies.}
+  \workproject{Analyzed EVTX logs, PowerShell, and malicious VBA macros; extracted
+  IoCs and mapped TTPs to MITRE ATT\&CK for CVE-2020-5902 and CVE-2023-38831.}
+}
+
+\vspace{0.50em}
+
+\cvrow{}{%
+  \workentry
+    {\textbf{Software Engineer} @ \href{https://academai.ru/}{AcademAI}}
+    {Sep. 2023--Aug. 2024}
+  \workproject{Developed the application layer with Next.js/TypeScript application,
+  Python/Flask services, PostgreSQL/Prisma data layer, and Auth.js authentication
+  for an LLM-based educational platform used by computer science university faculty
+  and students.}
+  \workproject{Integrated LangChain-based generation workflows with AsyncIO and Redis for
+  asynchronous LLM orchestration and intermediate state management.}
+  \workproject{Containerized the application with Docker, configured Nginx, deployed
+  to cloud-hosted VPS infrastructure, and built the GitHub Actions CI/CD workflow.}
+}
+
+\cvrow{}{%
+  \workentry
+    {\textbf{Junior Software Engineer} @
+    \href{https://zvekprogress.ru/}{ZVEK ``Progress'' LLC}}
+    {May. 2022--Aug. 2023}
+
+  \workproject{Built a C++17/Crow REST backend with MySQL and Qt 5/QML desktop
+  and mobile clients for a QR-based warehouse inventory system.}
+
+  \workproject{Supported approximately 1,000 records and 20+ concurrent users;
+  added unit-test coverage, CMake builds, Git-based development, debugging, and Linux deployment.}
+}
+\vspace{0.75em}
+
+\cvrow{Skills}{%
+  \begin{tabularx}{\linewidth}
+    {@{}>{\raggedright\arraybackslash}X
+    @{\hspace{1.2em}}
+    >{\raggedright\arraybackslash}X@{}}
+
+    \skillcell{Programming:}{%
+      Go, Python, Rust, TypeScript, C++, SQL, Bash, LaTeX}
+    &
+    \skillcell{Cryptographic libraries:}{%
+      Lattigo, SEAL, TenSEAL, OpenFHE, fheanor}
+    \\[0.20em]
+
+    \skillcell{Privacy-enhancing technologies:}{%
+      Private Information Retrieval (PIR/CPIR),
+      Searchable Symmetric Encryption (SSE),
+      Private Pattern Search}
+    &
+    \skillcell{Systems and infrastructure:}{%
+      Linux, Proxmox VE, VMware, Docker,
+      GitHub Actions, GitLab CI/CD, Nginx, Ansible,
+      Airflow, S3, Hyperledger Fabric}
+    \\[0.20em]
+
+    \skillcell{Homomorphic encryption:}{%
+      Brakerski--Gentry--Vaikuntanathan (BGV),
+      Brakerski--Fan--Vercauteren (BFV),
+      Cheon--Kim--Kim--Song (CKKS)}
+    &
+    \skillcell{Security engineering:}{%
+      YARA, Chainsaw, malware/log analysis,
+      MITRE ATT\&CK}
+    \\[0.20em]
+
+    \skillcell{Post-quantum cryptography:}{%
+      ML-KEM, ML-DSA, SLH-DSA; LWE, RLWE}
+    &
+    \skillcell{Languages:}{%
+      Russian --- native;
+      English --- \href{https://iasenovets.github.io/files/toefl_8cd5f4a2b8ec8f34da49ea0faeef43f1.pdf}{C1};
+      Chinese --- \href{https://admin.chinesetest.cn/queryScore.do?sid=c2tActR9Wb\%2704b861aefbdc5e9fd0b44afa717d08cbceb0720e582ce25f\%2724d7sWsQ5nVUQSwD}{HSK3}}
+  \end{tabularx}
 }
 
 \end{document}

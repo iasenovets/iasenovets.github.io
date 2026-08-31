@@ -30,7 +30,7 @@
 - **Junior Software Engineer**, [ZVEK “Progress” LLC](https://zvekprogress.ru/) — _May 2022–August 2023_
 -->
 
-## Experiences
+## Experience
 
 <details markdown="1">
 <summary><strong>Research Experience</strong></summary>
@@ -66,6 +66,8 @@
 
 </details>
 
+<br>
+
 <!--
 ## Projects
 
@@ -79,7 +81,7 @@ Supporting documents: [Selected certificates with English summaries](/files/cert
 
 - **Chinese Government Scholarship (CSC) for Graduate Studies** — Full scholarship for the entire M.S. program at CQUPT — _2024–2027_
 - **Sber Student Accelerator Regional Demo Day** — Completed the Sber Student Accelerator with the [AcademAI team](https://academai.ru/) and participated in the North-Western District regional demo day — _2023_
-- **Winner, EdTech Project Competition** — Presented the [YouKnow LLM-based educational platform](https://github.com/AcademAI/youknow) and won the competition organized by the MIPT Phystech School, the Fund for Development of Phystech Schools, and Startech.Base — _2023_
-- **MIPT & Sber Phystech GigaChat Challenge** — Developed the [YouKnow LLM-based educational platform](https://github.com/AcademAI/youknow) using GigaChat and Kandinsky APIs within a 48-hour sprint — _2023_
-- **[Kaspersky Cyberimmunity Hackathon 2.0](https://github.com/iasenovets/cyberimmune2023_mi6)** — Placed 11th out of 100+ teams for developing traffic-monitoring solutions for low-altitude airspace security — _2023_
+- **Winner, EdTech Project Competition** — Presented the [LLM-based educational platform](https://github.com/AcademAI/youknow) and won the competition organized by the MIPT Phystech School, the Fund for Development of Phystech Schools, and Startech.Base — _2023_
+- **MIPT & Sber Phystech GigaChat Challenge** — Developed the [LLM-based educational platform](https://github.com/AcademAI/youknow) using GigaChat and Kandinsky APIs within a 48-hour sprint — _2023_
+- **Kaspersky Cyberimmunity Hackathon 2.0** — Placed 11th out of 100+ teams for developing a [traffic-monitoring solution for low-altitude airspace security](https://github.com/iasenovets/cyberimmune2023_mi6) — _2023_
 - **First Degree Diploma, Severgeoecotech** — Awarded first place in the Modern Information Technologies section of the 23rd International Youth Scientific Conference — _2022_

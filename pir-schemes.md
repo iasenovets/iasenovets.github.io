@@ -30,9 +30,9 @@ title: PIR Scheme Notes
 }
 </style>
 
-# PIR Scheme Notes | Research Review
+# PIR schemes review
 
-[Home](./) · [PIR Scheme Notes](./pir-schemes)
+[Home](./) · [PIR Notes](./pir-schemes)
 
 This page is a public index for my ongoing review of Private Information Retrieval (PIR) schemes. The goal of this page is to track PIR schemes by construction family, assumptions, preprocessing model, communication cost, server computation, and practical deployment relevance.
 

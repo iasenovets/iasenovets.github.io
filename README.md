@@ -45,10 +45,25 @@
   - Built an automated malware-processing pipeline with an Airflow DAG that collected samples from MalwareBazaar, stored artifacts in S3, and scanned them with YARA.
   - Analyzed EVTX logs, PowerShell, and malicious VBA macros; extracted IoCs and mapped TTPs to MITRE ATT&CK for CVE-2020-5902 and CVE-2023-38831.
 
+<details markdown="1">
+<summary><strong>Industry Experience</strong></summary>
+
+- **Software Engineer**, [AcademAI](https://academai.ru/) — _September 2023–August 2024_
+  - **[YouKnow](https://github.com/AcademAI/youknow):** Developed the application layer with Next.js and TypeScript, Python/Flask services, a PostgreSQL/Prisma data layer, and Auth.js authentication for an LLM-based educational platform.
+  - Integrated LangChain generation workflows with AsyncIO and Redis for asynchronous LLM orchestration and intermediate-state management.
+  - Containerized the application with Docker, configured Nginx, deployed it to cloud-hosted VPS infrastructure, and built its GitHub Actions CI/CD workflow.
+- **Junior Software Engineer**, [ZVEK “Progress” LLC](https://zvekprogress.ru/) — _May 2022–August 2023_
+  - Designed and developed a full-stack warehouse QR-inventory system using Python and FastAPI, replacing a manual tracking process.
+  - Interviewed 10+ stakeholders to gather requirements and owned the complete development lifecycle: backlogging, architecture design, code reviews, testing, debugging, and production deployment.
+
+</details>
+
+<!--
 ## Projects
 
 - **[HLF-CPIR](https://github.com/iasenovets/2_2_HLF_CPIR):** Private world-state queries in Hyperledger Fabric using [private information retrieval](https://arxiv.org/abs/2511.02656).
 - **[YouKnow](https://github.com/AcademAI/youknow):** LLM-based platform for generating personalized educational courses.
+-->
 
 ## Achievements
 

@@ -30,7 +30,10 @@
 - **Junior Software Engineer**, [ZVEK “Progress” LLC](https://zvekprogress.ru/) — _May 2022–August 2023_
 -->
 
-## Research Experience
+## Experiences
+
+<details markdown="1">
+<summary><strong>Research Experience</strong></summary>
 
 - **Graduate Researcher**, [CQUPT](https://www.cqupt.edu.cn/en/) — _September 2024–Present_
   - **[HLF-CPIR](https://github.com/iasenovets/2_2_HLF_CPIR):** Designed and implemented BGV-based private information retrieval in Go using Lattigo for private world-state queries in Hyperledger Fabric, with query privacy under an honest-but-curious peer model based on the IND-CPA security of BGV.
@@ -38,12 +41,17 @@
   - **FPS/RFPS Private Pattern Search:** Implemented and validated a private pattern-search prototype, replacing the DFT-based matching transform under approximate-arithmetic CKKS with an NTT-based transform under exact-arithmetic BGV/BFV.
   - **[PIR Protocol Reconstruction](/pir-schemes):** Reconstructed preprocessing models, query construction, server computation, and response expansion for PIR protocols including Piano, FrodoPIR/SimplePIR, XPIR, SealPIR, and OnionPIR.
 
-## Industry Internships
+</details>
+
+<details markdown="1">
+<summary><strong>Industry Internships</strong></summary>
 
 - **Information Security Engineer**, [Positive Technologies](https://global.ptsecurity.com/en/) — _August 2024–February 2025_
   - Developed Python tools with unit-test coverage for validating Windows paths, network configurations, and endpoint-control policies.
   - Built an automated malware-processing pipeline with an Airflow DAG that collected samples from MalwareBazaar, stored artifacts in S3, and scanned them with YARA.
   - Analyzed EVTX logs, PowerShell, and malicious VBA macros; extracted IoCs and mapped TTPs to MITRE ATT&CK for CVE-2020-5902 and CVE-2023-38831.
+
+</details>
 
 <details markdown="1">
 <summary><strong>Industry Experience</strong></summary>
@@ -70,8 +78,8 @@
 Supporting documents: [Selected certificates with English summaries](/files/certificates_selected_en_public_ready_v2.pdf).
 
 - **Chinese Government Scholarship (CSC) for Graduate Studies** — Full scholarship for the entire M.S. program at CQUPT — _2024–2027_
-- **Sber Student Accelerator Regional Demo Day** — Completed the Sber Student Accelerator with the AcademAI team and participated in the North-Western District regional demo day — _2023_
-- **Winner, EdTech Project Competition** — Presented an LLM-based educational platform and won the competition organized by the MIPT Phystech School, the Fund for Development of Phystech Schools, and Startech.Base — _2023_
-- **MIPT & Sber Phystech GigaChat Challenge** — Developed an LLM-based educational platform using GigaChat and Kandinsky APIs within a 48-hour sprint — _2023_
-- **Kaspersky Cyberimmunity Hackathon 2.0** — Placed 11th out of 100+ teams for developing traffic-monitoring solutions for low-altitude airspace security — _2023_
+- **Sber Student Accelerator Regional Demo Day** — Completed the Sber Student Accelerator with the [AcademAI team](https://academai.ru/) and participated in the North-Western District regional demo day — _2023_
+- **Winner, EdTech Project Competition** — Presented the [YouKnow LLM-based educational platform](https://github.com/AcademAI/youknow) and won the competition organized by the MIPT Phystech School, the Fund for Development of Phystech Schools, and Startech.Base — _2023_
+- **MIPT & Sber Phystech GigaChat Challenge** — Developed the [YouKnow LLM-based educational platform](https://github.com/AcademAI/youknow) using GigaChat and Kandinsky APIs within a 48-hour sprint — _2023_
+- **[Kaspersky Cyberimmunity Hackathon 2.0](https://github.com/iasenovets/cyberimmune2023_mi6)** — Placed 11th out of 100+ teams for developing traffic-monitoring solutions for low-altitude airspace security — _2023_
 - **First Degree Diploma, Severgeoecotech** — Awarded first place in the Modern Information Technologies section of the 23rd International Youth Scientific Conference — _2022_

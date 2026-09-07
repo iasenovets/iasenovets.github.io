@@ -38,7 +38,7 @@
 - **Graduate Researcher**, [CQUPT](https://www.cqupt.edu.cn/en/) — _September 2024–Present_
   - **[HLF-CPIR](https://github.com/iasenovets/2_2_HLF_CPIR):** Designed and implemented BGV-based private information retrieval in Go using Lattigo for private world-state queries in Hyperledger Fabric, with query privacy under an honest-but-curious peer model based on the IND-CPA security of BGV.
   - **[TWAPPA-FRL](https://github.com/hetiantian10/TWAPPA-FRL):** Designed the architecture and implemented CKKS-based private aggregation of DQN model updates using TenSEAL, with IND-CPA-based client-update privacy under an honest-but-curious aggregator model and explicit leakage analysis.
-  - **EVMK-SSE:** Analyzed the threat model with an HBC data owner and user and a malicious cloud server; demonstrated query privacy in the real/ideal model based on OT security and the pseudorandomness of CI-rOPRF/PRG under explicitly defined search- and access-pattern leakage.
+  - **EVMK-SSE:** Analyzed the threat model with an HBC data owner and user and a malicious cloud server; reviewed the query-privacy argument in the real/ideal model, based on OT security and the pseudorandomness of CI-rOPRF/PRG under explicitly defined search- and access-pattern leakage.
   - **FPS/RFPS Private Pattern Search:** Implemented and validated a private pattern-search prototype, replacing the DFT-based matching transform under approximate-arithmetic CKKS with an NTT-based transform under exact-arithmetic BGV/BFV.
   - **[PIR Protocol Reconstruction](/pir-schemes):** Reconstructed preprocessing models, query construction, server computation, and response expansion for PIR protocols including Piano, FrodoPIR/SimplePIR, XPIR, SealPIR, and OnionPIR.
 

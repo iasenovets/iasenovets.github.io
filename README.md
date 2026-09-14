@@ -1,6 +1,6 @@
 # Information Security Research Engineer
 
-[Home](./) <!-- · [Study Plan](./study-plan) -->  · [PIR Notes](./pir-schemes)
+[Home](./) <!-- · [Study Plan](./study-plan) --> · [PIR Notes](./pir-schemes) · [Public talks](./public-talks)
 
 #### I'm a master's student in Network and Information Security at CQUPT, in Cryptography and Applications Research Group with 4+ years of experience in software and security engineering. My interests lie in applied cryptography and privacy-enhancing technologies. I develop in Go, Python, and Rust, with some experience in Solidity. I translate cryptographic protocols from papers into code, conduct security, correctness and leakage analysis, and develop systems for private data search, retrieval, and processing based on homomorphic encryption.
 

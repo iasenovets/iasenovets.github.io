@@ -131,10 +131,16 @@
 
 \cvrow{Profile}{%
   4+ years of experience in software and security engineering. I develop in Go,
-  Python, Rust, and TypeScript, with some experience in C++.
-  I translate cryptographic protocols from papers into code, conduct security,
-  correctness and leakage analysis, and develop systems for private data search,
-  retrieval, and processing based on homomorphic encryption.
+  Python, TypeScript, and I am currently learning Rust. I translate cryptographic protocols
+  from papers into code, conduct security, correctness and leakage analysis, and develop
+  systems for private data search, retrieval, and processing using homomorphic encryption.
+}
+
+\vspace{0.55em}
+
+\cvrow{Research\newline Interests}{%
+  \textit{Homomorphic encryption, private information retrieval, private pattern matching,
+  searchable encryption, privacy-enhancing technologies, and blockchain privacy.}
 }
 
 \vspace{0.75em}
@@ -152,7 +158,7 @@
 
   \edudetail{Supervisor:
     \href{https://faculty.cqupt.edu.cn/tangfei/en/index.htm}{Prof. Tang Fei}}
-  \edudetail{GPA: 3.98/4.00}
+  \edudetail{Average mark: 95/100}
 
   \vspace{0.48em}
 
@@ -164,7 +170,7 @@
     {$\diamond$ \textbf{B.S.} in Information Systems and Technologies}
     {Mar. 2022--Jun. 2024}
 
-  \edudetail{GPA: 4.49/5.00}
+  \edudetail{GPA: 4.45/5.00}
 
   \vspace{0.48em}
 
@@ -256,41 +262,44 @@
 
 \vspace{0.50em}
 
-\cvrow{Experience}{%
+\cvrow{Research Experience}{%
   \workentry
     {\textbf{Graduate Researcher} @
     \href{https://www.cqupt.edu.cn/}{CQUPT}}
     {Sep. 2024--Present}
 
-  \workproject{Designed and implemented BGV-based private information retrieval
-  in Go using Lattigo for private world-state queries in Hyperledger Fabric,
+  \workproject{\textbf{\href{https://github.com/iasenovets/2_2_HLF_CPIR}{HLF-CPIR}:}
+  Designed and implemented BGV-based private information retrieval in Go using
+  Lattigo for private world-state queries in Hyperledger Fabric,
   with query privacy under an HBC peer model based on the IND-CPA security of BGV.}
 
-  \workproject{Designed the TWAPPA-FRL architecture and implemented CKKS-based
+  \workproject{\textbf{\href{https://github.com/hetiantian10/TWAPPA-FRL}{TWAPPA-FRL}:}
+  Designed the architecture and implemented CKKS-based
   private aggregation of DQN model updates using TenSEAL, with IND-CPA-based
   client-update privacy under an HBC aggregator model and explicit leakage analysis.}
 
-  \workproject{Analyzed EVMK-SSE's threat model with an HBC data owner
+  \workproject{\textbf{EVMK-SSE:} Analyzed the threat model with an HBC data owner
   and user and a malicious cloud server; reviewed the query-privacy argument in the
   real/ideal model, based on OT security and the pseudorandomness of CI-rOPRF/PRG under explicitly
   defined search- and access-pattern leakage.}
 
-  \workproject{Implemented and validated an FPS/RFPS-style private pattern-search
-  prototype, replacing the DFT-based matching transform under approximate-arithmetic
-  CKKS with an NTT-based matching transform under exact-arithmetic BGV/BFV,
-  with IND-CPA-based pattern privacy under an HBC server model and explicit
-  protocol leakage.}
+  % \workproject{\textbf{FPS/RFPS Private Pattern Search:} Implemented and validated
+  % a private pattern-search prototype, replacing the DFT-based matching transform
+  % under approximate-arithmetic CKKS with an NTT-based matching transform under
+  % exact-arithmetic BGV/BFV, with IND-CPA-based pattern privacy under an HBC server
+  % model and explicit protocol leakage.}
 
   % with IND-CPA-based [query/client-update/pattern] privacy under an HBC [peer/aggregator/server] model
 
-  \workproject{Reconstructed preprocessing models, query construction,
-  server computation, and response expansion of PIR protocols such as Piano,
-  FrodoPIR/SimplePIR, XPIR, SealPIR, and OnionPIR, and analyzed their
-  communication/performance trade-offs.}
+  \workproject{\textbf{\href{https://iasenovets.github.io/pir-schemes}{Reconstructed}}
+  preprocessing models, query construction, server computation, and response expansion of PIR
+  protocols such as Piano, FrodoPIR/SimplePIR, XPIR, SealPIR, and OnionPIR, and
+  analyzed their communication/performance trade-offs.}
 }
+
 \vspace{0.50em}
 
-\cvrow{}{%
+\cvrow{Industry Internships}{%
   \workentry
     {\textbf{Information Security Engineer} @
     \href{https://global.ptsecurity.com/en/}{Positive Technologies}}
@@ -305,7 +314,7 @@
 
 \vspace{0.50em}
 
-\cvrow{}{%
+\cvrow{Other Experience}{%
   \workentry
     {\textbf{Software Engineer} @ \href{https://academai.ru/}{AcademAI}}
     {Sep. 2023--Aug. 2024}
@@ -325,11 +334,11 @@
     \href{https://zvekprogress.ru/}{ZVEK ``Progress'' LLC}}
     {May. 2022--Aug. 2023}
 
-  \workproject{Built a C++17/Crow REST backend with MySQL and Qt 5/QML desktop
-  and mobile clients for a QR-based warehouse inventory system.}
+  \workproject{Designed and developed a full-stack warehouse QR-inventory system
+  using Python, FastAPI, and MySQL, replacing a manual tracking process entirely.}
 
   \workproject{Supported approximately 1,000 records and 20+ concurrent users;
-  added unit-test coverage, CMake builds, Git-based development, debugging, and Linux deployment.}
+  added unit-test coverage, Git-based development, debugging, and Linux deployment.}
 }
 \vspace{0.75em}
 

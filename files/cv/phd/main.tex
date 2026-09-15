@@ -131,10 +131,16 @@
 
 \cvrow{Profile}{%
   4+ years of experience in software and security engineering. I develop in Go,
-  Python, and Rust, with some experience in Solidity.
-  I translate cryptographic protocols from papers into code, conduct security,
-  correctness and leakage analysis, and develop systems for private data search,
-  retrieval, and processing based on homomorphic encryption.
+  Python, TypeScript, and I am currently learning Rust. I translate cryptographic protocols
+  from papers into code, conduct security, correctness and leakage analysis, and develop
+  systems for private data search, retrieval, and processing using homomorphic encryption.
+}
+
+\vspace{0.55em}
+
+\cvrow{Research\newline Interests}{%
+  \textit{Homomorphic encryption, private information retrieval, private pattern matching,
+  searchable encryption, privacy-enhancing technologies, and blockchain privacy.}
 }
 
 \vspace{0.75em}
@@ -152,7 +158,7 @@
 
   \edudetail{Supervisor:
     \href{https://faculty.cqupt.edu.cn/tangfei/en/index.htm}{Prof. Tang Fei}}
-  \edudetail{GPA: 3.98/4.00}
+  \edudetail{Average mark: 95/100}
 
   \vspace{0.48em}
 
@@ -164,7 +170,7 @@
     {$\diamond$ \textbf{B.S.} in Information Systems and Technologies}
     {Mar. 2022--Jun. 2024}
 
-  \edudetail{GPA: 4.49/5.00}
+  \edudetail{GPA: 4.45/5.00}
 
   \vspace{0.48em}
 
@@ -286,9 +292,8 @@
 
   % with IND-CPA-based [query/client-update/pattern] privacy under an HBC [peer/aggregator/server] model
 
-  \workproject{\textbf{\href{https://iasenovets.github.io/pir-schemes}{PIR Protocol Reconstruction}:}
-  Reconstructed preprocessing
-  models, query construction, server computation, and response expansion of PIR
+  \workproject{\textbf{\href{https://iasenovets.github.io/pir-schemes}{Reconstructed}}
+  preprocessing models, query construction, server computation, and response expansion of PIR
   protocols such as Piano, FrodoPIR/SimplePIR, XPIR, SealPIR, and OnionPIR, and
   analyzed their communication/performance trade-offs.}
 }
@@ -310,6 +315,35 @@
   IoCs and mapped TTPs to MITRE ATT\&CK for CVE-2020-5902 and CVE-2023-38831.}
 }
 
+\vspace{0.50em}
+
+\cvrow{Other Experience}{%
+  \workentry
+    {\textbf{Software Engineer} @ \href{https://academai.ru/}{AcademAI}}
+    {Sep. 2023--Aug. 2024}
+  \workproject{Developed the application layer with Next.js/TypeScript application,
+  Python/Flask services, PostgreSQL/Prisma data layer, and Auth.js authentication
+  for an LLM-based educational platform used by computer science university faculty
+  and students.}
+  \workproject{Integrated LangChain-based generation workflows with AsyncIO and Redis for
+  asynchronous LLM orchestration and intermediate state management.}
+  \workproject{Containerized the application with Docker, configured Nginx, deployed
+  to cloud-hosted VPS infrastructure, and built the GitHub Actions CI/CD workflow.}
+}
+
+\cvrow{}{%
+  \workentry
+    {\textbf{Junior Software Engineer} @
+    \href{https://zvekprogress.ru/}{ZVEK ``Progress'' LLC}}
+    {May. 2022--Aug. 2023}
+
+  \workproject{Designed and developed a full-stack warehouse QR-inventory system
+  using Python, FastAPI, and MySQL, replacing a manual tracking process entirely.}
+
+  \workproject{Supported approximately 1,000 records and 20+ concurrent users;
+  added unit-test coverage, Git-based development, debugging, and Linux deployment.}
+}
+
 \vspace{0.75em}
 
 \cvrow{Skills}{%
@@ -318,17 +352,18 @@
     @{\hspace{1.2em}}
     >{\raggedright\arraybackslash}X@{}}
 
-    \skillcell{Research programming:}{%
-      Go, Python, Rust, Solidity, SQL, Bash, LaTeX}
+    \skillcell{Programming:}{%
+      Go, Python, Rust, TypeScript, SQL, Bash, LaTeX}
     &
-    \skillcell{Cryptographic libraries:}{%
-      Lattigo, SEAL, TenSEAL, OpenFHE, fheanor}
+    \skillcell{Distributed systems:}{%
+      Hyperledger Fabric, LevelDB,
+      EVM, Hardhat, Web3.js}
     \\[0.20em]
 
     \skillcell{Privacy-enhancing technologies:}{%
       Private Information Retrieval (PIR/CPIR),
       Searchable Symmetric Encryption (SSE),
-      Private Pattern Search}
+      Private Pattern Matching}
     &
     \skillcell{Security engineering:}{%
       YARA, malware analysis (PS/VBA), IoC/TTP analysis,
@@ -340,22 +375,13 @@
       Brakerski--Fan--Vercauteren (BFV),
       Cheon--Kim--Kim--Song (CKKS)}
     &
-    \skillcell{Distributed systems:}{%
-      Hyperledger Fabric, LevelDB,
-      EVM, Hardhat, Web3.js, smart contracts}
-    \\[0.20em]
-
-    \skillcell{Protocol analysis:}{%
-      Threat modeling, correctness and leakage analysis,
-      IND-CPA security analysis}
-    &
     \skillcell{Systems and infrastructure:}{%
-      Linux, VMware, Docker, GitHub Actions, CI/CD, Nginx, Ansible,
+      Linux, Proxmox VE, VMware, Docker, Git, CI/CD, Nginx, Ansible,
       Airflow, S3}
     \\[0.20em]
 
-    \skillcell{Post-quantum cryptography:}{%
-      ML-KEM, ML-DSA, SLH-DSA; LWE, RLWE}
+    \skillcell{Cryptographic libraries:}{%
+      Lattigo, SEAL, TenSEAL, OpenFHE, fheanor}
     &
     \skillcell{Languages:}{%
       Russian --- native;

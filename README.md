@@ -4,14 +4,14 @@
 
 #### I'm a master's student in Network and Information Security at CQUPT, in Cryptography and Applications Research Group with 4+ years of experience in software and security engineering. My interests lie in applied cryptography and privacy-enhancing technologies. I develop in Go, Python, and Rust, with some experience in Solidity. I translate cryptographic protocols from papers into code, conduct security, correctness and leakage analysis, and develop systems for private data search, retrieval, and processing based on homomorphic encryption.
 
-[![ORCID](https://img.shields.io/badge/ORCID-0009--0008--0008--3746-brightgreen?logo=orcid)](https://orcid.org/0009-0008-0008-3746) [![Email](https://img.shields.io/badge/Email-L202420002%40stu.cqupt.edu.cn-red?logo=gmail)](mailto:L202420002@stu.cqupt.edu.cn) [![LinkedIn](https://img.shields.io/badge/LinkedIn-iasenovets-blue?logo=linkedin)](https://www.linkedin.com/in/iasenovets) [![TOEFL](https://img.shields.io/badge/TOEFL-C1-blue)](/files/toefl_8cd5f4a2b8ec8f34da49ea0faeef43f1.pdf) [![CV](https://img.shields.io/badge/CV-Download-blue?logo=adobeacrobatreader)](/files/phd/main.pdf)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0008--0008--3746-brightgreen?logo=orcid)](https://orcid.org/0009-0008-0008-3746) [![Email](https://img.shields.io/badge/Email-L202420002%40stu.cqupt.edu.cn-red?logo=gmail)](mailto:L202420002@stu.cqupt.edu.cn) [![LinkedIn](https://img.shields.io/badge/LinkedIn-iasenovets-blue?logo=linkedin)](https://www.linkedin.com/in/iasenovets) [![TOEFL](https://img.shields.io/badge/TOEFL-C1-blue)](/files/toefl_8cd5f4a2b8ec8f34da49ea0faeef43f1.pdf) [![CV](https://img.shields.io/badge/CV-Download-blue?logo=adobeacrobatreader)](/files/cv/phd/main.pdf)
 
 **Research interests:** homomorphic encryption, private information retrieval, searchable encryption, private pattern matching, privacy-enhancing technologies, blockchain privacy.
 
 ## Education
 
-- **M.S. in Network & Information Security**, [CQUPT](https://www.cqupt.edu.cn/en/) — Supervisor: [Prof. Tang Fei](https://faculty.cqupt.edu.cn/tangfei/en/index.htm); GPA: 3.98/4.0 — _Sep. 2024–Jul. 2027 (expected)_
-- **B.S. in Information Systems and Technologies**, Ukhta State Technical University — GPA: 4.49/5.0 — _Mar. 2022–Jun. 2024_
+- **M.S. in Network & Information Security**, [CQUPT](https://www.cqupt.edu.cn/en/) — Supervisor: [Prof. Tang Fei](https://faculty.cqupt.edu.cn/tangfei/en/index.htm); Average mark: 95/100 — _Sep. 2024–Jul. 2027 (expected)_
+- **B.S. in Information Systems and Technologies**, Ukhta State Technical University — GPA: 4.45/5.0 — _Mar. 2022–Jun. 2024_
 - **B.S. studies in Information Systems and Technologies**, St. Petersburg State University of Telecommunications — _Sep. 2020–Mar. 2022 (transferred)_
 
 ## Selected Publications

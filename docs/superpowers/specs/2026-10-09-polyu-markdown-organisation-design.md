@@ -2,7 +2,7 @@
 
 ## Goal
 
-Organise the Markdown files in `files/phd_materials/asia/_base_email_draft_template/` so that canonical working documents remain immediately accessible and completed review/audit records are grouped by purpose.
+Organise the Markdown files in `files/phd_materials/asia/_base_rp_template/` so that canonical working documents remain immediately accessible and completed review/audit records are grouped by purpose.
 
 ## Scope
 

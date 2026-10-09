@@ -13,7 +13,7 @@
 ### Task 1: Validate the source set and capture record hashes
 
 **Files:**
-- Inspect: `files/phd_materials/asia/_base_email_draft_template/*.md`
+- Inspect: `files/phd_materials/asia/_base_rp_template/*.md`
 - Reference: `docs/superpowers/specs/2026-10-09-polyu-markdown-organisation-design.md`
 
 - [ ] **Step 1: Confirm the source contains exactly 39 root-level Markdown files**
@@ -21,7 +21,7 @@
 Run:
 
 ```bash
-base="files/phd_materials/asia/_base_email_draft_template"
+base="files/phd_materials/asia/_base_rp_template"
 find "$base" -mindepth 1 -maxdepth 1 -type f -name '*.md' -printf '%f\n' | sort
 test "$(find "$base" -mindepth 1 -maxdepth 1 -type f -name '*.md' | wc -l)" -eq 39
 ```
@@ -46,12 +46,12 @@ Expected: the temporary manifest contains 38 hashes. `README.md` is excluded bec
 ### Task 2: Create the approved hierarchy and move records
 
 **Files:**
-- Create directories: `files/phd_materials/asia/_base_email_draft_template/reviews/section4/`
-- Create directories: `files/phd_materials/asia/_base_email_draft_template/reviews/section5/`
-- Create directories: `files/phd_materials/asia/_base_email_draft_template/reviews/section6/`
-- Create directories: `files/phd_materials/asia/_base_email_draft_template/audits/citations/`
-- Create directories: `files/phd_materials/asia/_base_email_draft_template/audits/editorial/`
-- Create directories: `files/phd_materials/asia/_base_email_draft_template/audits/final/`
+- Create directories: `files/phd_materials/asia/_base_rp_template/reviews/section4/`
+- Create directories: `files/phd_materials/asia/_base_rp_template/reviews/section5/`
+- Create directories: `files/phd_materials/asia/_base_rp_template/reviews/section6/`
+- Create directories: `files/phd_materials/asia/_base_rp_template/audits/citations/`
+- Create directories: `files/phd_materials/asia/_base_rp_template/audits/editorial/`
+- Create directories: `files/phd_materials/asia/_base_rp_template/audits/final/`
 - Move: the 34 completed review and audit Markdown records listed in the approved design
 
 - [ ] **Step 1: Create the six destination directories**
@@ -91,7 +91,7 @@ Expected: all 34 non-core records are moved and only the five canonical Markdown
 ### Task 3: Turn README into a package index
 
 **Files:**
-- Modify: `files/phd_materials/asia/_base_email_draft_template/README.md`
+- Modify: `files/phd_materials/asia/_base_rp_template/README.md`
 
 - [ ] **Step 1: Replace README with the approved navigation content**
 
@@ -131,9 +131,9 @@ Expected: README provides direct navigation and distinguishes canonical files fr
 ### Task 4: Verify the organised package
 
 **Files:**
-- Verify: `files/phd_materials/asia/_base_email_draft_template/`
-- Verify unchanged: `files/phd_materials/asia/_base_email_draft_template/polyu_research_proposal.md`
-- Verify unchanged: `files/phd_materials/asia/_base_email_draft_template/references.bib`
+- Verify: `files/phd_materials/asia/_base_rp_template/`
+- Verify unchanged: `files/phd_materials/asia/_base_rp_template/polyu_research_proposal.md`
+- Verify unchanged: `files/phd_materials/asia/_base_rp_template/references.bib`
 - Verify unchanged: PDFs, `papers/`, TeX files, and LaTeX build artefacts
 
 - [ ] **Step 1: Rebuild the relocated-file manifest and compare hashes**

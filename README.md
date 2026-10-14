@@ -8,8 +8,6 @@
 
 **Research interests:** privacy-enhancing technologies, private information retrieval, private pattern search, searchable encryption, homomorphic encryption, blockchain privacy.
 
-**Programming:** Go, Python, Rust, TypeScript, SQL, Bash, LaTeX · **Cryptography:** lattice-based, symmetric-key, public-key · **Cryptographic libraries:** Lattigo, SEAL, TenSEAL, OpenFHE · **Systems and infrastructure:** Linux, Proxmox VE, VMware, Docker, Git, CI/CD, Nginx, Ansible, Airflow, S3 · **Security engineering:** YARA, malware analysis, IoC/TTP analysis, MITRE ATT\&CK.
-
 ## Education
 
 - **M.S. in Network & Information Security**, [CQUPT](https://www.cqupt.edu.cn/en/) — Supervisor: [Prof. Tang Fei](https://faculty.cqupt.edu.cn/tangfei/en/index.htm); Average mark: 95/100 — _Sep. 2024–Jul. 2027 (expected)_
@@ -69,6 +67,8 @@
   - Interviewed 10+ stakeholders to gather requirements and owned the complete development lifecycle: backlogging, architecture design, code reviews, testing, debugging, and production deployment.
 
 </details>
+
+**Programming:** Go, Python, Rust, TypeScript, SQL, Bash, LaTeX · **Cryptography:** lattice-based, symmetric-key, public-key · **Cryptographic libraries:** Lattigo, SEAL, TenSEAL, OpenFHE · **Systems and infrastructure:** Linux, Proxmox VE, VMware, Docker, Git, CI/CD, Nginx, Ansible, Airflow, S3 · **Security engineering:** YARA, malware analysis, IoC/TTP analysis, MITRE ATT\&CK.
 
 <br>
 

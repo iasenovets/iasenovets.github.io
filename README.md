@@ -20,6 +20,8 @@
 
 </details>
 
+<br>
+
 ## Education
 
 - **M.S. in Network & Information Security**, [CQUPT](https://www.cqupt.edu.cn/en/) — Supervisor: [Prof. Tang Fei](https://faculty.cqupt.edu.cn/tangfei/en/index.htm); Average mark: 95/100 — _Sep. 2024–Jul. 2027 (expected)_

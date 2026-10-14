@@ -114,6 +114,8 @@ YARA, malware analysis, IoC/TTP analysis, MITRE ATT\&CK
 - **[YouKnow](https://github.com/AcademAI/youknow):** LLM-based platform for generating personalized educational courses.
 -->
 
+<br>
+
 ## Achievements
 
 Supporting documents: [Selected certificates with English summaries](/files/certificates_selected_en_public_ready_v2.pdf).

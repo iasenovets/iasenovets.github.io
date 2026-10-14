@@ -68,9 +68,9 @@
 
 </details>
 
-**Programming:** Go, Python, Rust, TypeScript, SQL, Bash, LaTeX · **Cryptography:** lattice-based, symmetric-key, public-key · **Cryptographic libraries:** Lattigo, SEAL, TenSEAL, OpenFHE · **Systems and infrastructure:** Linux, Proxmox VE, VMware, Docker, Git, CI/CD, Nginx, Ansible, Airflow, S3 · **Security engineering:** YARA, malware analysis, IoC/TTP analysis, MITRE ATT\&CK.
+## Skills
 
-<br>
+**Programming:** Go, Python, Rust, TypeScript, SQL, Bash, LaTeX · **Cryptography:** lattice-based, symmetric-key, public-key · **Cryptographic libraries:** Lattigo, SEAL, TenSEAL, OpenFHE · **Systems and infrastructure:** Linux, Proxmox VE, VMware, Docker, Git, CI/CD, Nginx, Ansible, Airflow, S3 · **Security engineering:** YARA, malware analysis, IoC/TTP analysis, MITRE ATT\&CK.
 
 <!--
 ## Projects

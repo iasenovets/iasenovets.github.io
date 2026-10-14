@@ -133,8 +133,8 @@
 \vspace{0.55em}
 
 \cvrow{Research\newline Interests}{%
-  \textit{Homomorphic encryption, private information retrieval, private pattern matching,
-  searchable encryption, privacy-enhancing technologies, blockchain privacy.}
+  \textit{privacy-enhancing technologies, private information retrieval, private pattern search,
+  searchable encryption, homomorphic encryption, blockchain privacy.}
 }
 
 \vspace{0.75em}
@@ -179,9 +179,7 @@
 
 \vspace{0.75em}
 
-\cvrow{Publications}{%
-  \textbf{Published Works and Preprints}\par\vspace{0.25em}
-
+\cvrow{Selected\newline Papers}{%
   \pub{\underbar{Artur Iasenovets}, Fei Tang, H. Zhu, P. Wang, and L. Liu.}
   {``\href{https://arxiv.org/abs/2511.02656}
   {Bringing Private Reads to Hyperledger Fabric via Private Information Retrieval},''
@@ -202,6 +200,10 @@
   {``TWAPPA-FRL: Trust-Weighted Privacy-Preserving Aggregation for Federated
   Reinforcement Learning in Collaborative Intrusion Detection,''
   2026. Manuscript under review. $^{*}$Equal contribution.}
+
+  \pub{\underbar{Artur Iasenovets} and Fei Tang.}
+  {``CBPIR: Content-Based Private Information Retrieval over Structured Databases via
+  Homomorphic Encryption,'' 2026. Manuscript under review.}
 }
 
 \vspace{0.75em}
@@ -235,45 +237,68 @@
 
   % with IND-CPA-based [query/client-update/pattern] privacy under an HBC [peer/aggregator/server] model
 
-  \workproject{\textbf{\href{https://iasenovets.github.io/pir-schemes}{Reconstructed}}
-  preprocessing models, query construction, server computation, and response expansion of PIR
-  protocols such as Piano, FrodoPIR/SimplePIR, XPIR, SealPIR, and OnionPIR, and
-  analyzed their communication/performance trade-offs.}
+  \workproject{\textbf{\href{https://github.com/iasenovets/content-based-pir}{CBPIR}:}
+  Designed and implemented a Rust prototype using OpenFHE, combining
+  CKKS-based FPS/RFPS private pattern search, client-side match-to-record
+  mapping, and BGV-based windowed CPIR for private multi-record retrieval,
+  with explicit leakage and correctness analysis under an HBC server model.}
 }
 
 \vspace{0.75em}
 
-\cvrow{Skills}{%
-  \begin{tabularx}{\linewidth}
-    {@{}>{\raggedright\arraybackslash}X
-    @{\hspace{1.2em}}
-    >{\raggedright\arraybackslash}X@{}}
+\cvrow{Awards and\\Achievements}{%
+  \entry
+    {\textbf{Chinese Government Scholarship (CSC) for Graduate Studies}}
+    {2024--2027}
+  Full scholarship for the entire M.S. programme at CQUPT.
 
-    \skillcell{Programming:}{%
-      Go, Python, Rust, TypeScript, SQL, Bash, LaTeX}
-    &
-    \skillcell{Cryptography:}{%
-      Lattice-based, symmetric-key,
-      public-key}
-    \\[0.20em]
+  \vspace{0.45em}
+  \entry
+    {\textbf{Sber Student Accelerator Regional Demo Day}}
+    {2023}
+  Completed the Sber Student Accelerator with the AcademAI team and
+  participated in the North-Western District regional demo day.
 
-    \skillcell{Systems and infrastructure:}{%
-      Linux, Proxmox VE, VMware, Docker, Git, CI/CD, Nginx, Ansible,
-      Airflow, S3}
-    &
-    \skillcell{Security engineering:}{%
-      YARA, malware analysis (PS/VBA), IoC/TTP analysis,
-      MITRE ATT\&CK}
-    \\[0.20em]
+  \vspace{0.45em}
+  \entry
+    {\textbf{Winner, EdTech Project Competition}}
+    {2023}
+  Presented LLM-based educational platform and won the competition organized
+  by the MIPT Phystech School, the Fund for Development of Phystech Schools,
+  and Startech.Base.
 
-    \skillcell{Cryptographic libraries:}{%
-      Lattigo, SEAL, TenSEAL, OpenFHE}
-    &
-    \skillcell{Languages:}{%
-      Russian --- native;
-      English --- \href{https://iasenovets.github.io/files/toefl_8cd5f4a2b8ec8f34da49ea0faeef43f1.pdf}{C1};
-      Chinese --- \href{https://admin.chinesetest.cn/queryScore.do?sid=c2tActR9Wb\%2704b861aefbdc5e9fd0b44afa717d08cbceb0720e582ce25f\%2724d7sWsQ5nVUQSwD}{HSK3}}
-  \end{tabularx}
+  \vspace{0.45em}
+  \entry
+    {\textbf{Enhanced State Academic Scholarship}}
+    {2023}
+  Awarded by USTU for outstanding academic excellence, with the enhanced amount
+  based on documented achievements in the university's index-based student rating system.
+
+  \vspace{0.45em}
+  \entry
+    {\textbf{MIPT \& Sber Phystech Gigachat Challenge}}
+    {2023}
+  Participated in the Phystech Gigachat Challenge Hackathon, developing
+  an LLM-based educational platform using GigaChat and Kandinsky APIs
+  within a 48-hour sprint.
+
+  \vspace{0.45em}
+  \entry{\textbf{Kaspersky Cyberimmunity Hackathon 2.0}}
+  {2023}
+  Participated in Kaspersky’s Cyberimmunity Hackathon in Fall 2023,
+  placing 11th out of 100+ teams for developing traffic monitoring
+  solutions for low-altitude airspace security.
+
+  \vspace{0.45em}
+  \entry
+    {\textbf{First Degree Diploma, Severgeoecotech}}
+    {2022}
+  Awarded first place in the Modern Information Technologies section of the
+  23rd International Youth Scientific Conference.
+
+  \vspace{0.3em}
+  \href{https://iasenovets.github.io/files/certificates_selected_en_public_ready_v2.pdf}
+       {\small Supporting certificates}
 }
 
 \vspace{0.50em}
@@ -324,52 +349,37 @@
 
 \vspace{0.75em}
 
-\cvrow{Awards and\\Achievements}{%
-  \entry
-    {\textbf{Chinese Government Scholarship (CSC) for Graduate Studies}}
-    {2024--2027}
-  Full scholarship for the entire M.S. programme at CQUPT.
+\cvrow{Skills}{%
+  \begin{tabularx}{\linewidth}
+    {@{}>{\raggedright\arraybackslash}X
+    @{\hspace{1.2em}}
+    >{\raggedright\arraybackslash}X@{}}
 
-  \vspace{0.45em}
-  \entry
-    {\textbf{Sber Student Accelerator Regional Demo Day}}
-    {2023}
-  Completed the Sber Student Accelerator with the AcademAI team and
-  participated in the North-Western District regional demo day.
+    \skillcell{Programming:}{%
+      Go, Python, Rust, TypeScript, SQL, Bash, LaTeX}
+    &
+    \skillcell{Cryptography:}{%
+      Lattice-based, symmetric-key,
+      public-key}
+    \\[0.20em]
 
-  \vspace{0.45em}
-  \entry
-    {\textbf{Winner, EdTech Project Competition}}
-    {2023}
-  Presented LLM-based educational platform and won the competition organized
-  by the MIPT Phystech School, the Fund for Development of Phystech Schools,
-  and Startech.Base.
+    \skillcell{Systems and infrastructure:}{%
+      Linux, Proxmox VE, VMware, Docker, Git, CI/CD, Nginx, Ansible,
+      Airflow, S3}
+    &
+    \skillcell{Security engineering:}{%
+      YARA, malware analysis (PS/VBA), IoC/TTP analysis,
+      MITRE ATT\&CK}
+    \\[0.20em]
 
-  \vspace{0.45em}
-  \entry
-    {\textbf{MIPT \& Sber Phystech Gigachat Challenge}}
-    {2023}
-  Participated in the Phystech Gigachat Challenge Hackathon, developing
-  an LLM-based educational platform using GigaChat and Kandinsky APIs
-  within a 48-hour sprint.
-
-  \vspace{0.45em}
-  \entry{\textbf{Kaspersky Cyberimmunity Hackathon 2.0}}
-  {2023}
-  Participated in Kaspersky’s Cyberimmunity Hackathon in Fall 2023,
-  placing 11th out of 100+ teams for developing traffic monitoring
-  solutions for low-altitude airspace security.
-
-  \vspace{0.45em}
-  \entry
-    {\textbf{First Degree Diploma, Severgeoecotech}}
-    {2022}
-  Awarded first place in the Modern Information Technologies section of the
-  23rd International Youth Scientific Conference.
-
-  \vspace{0.3em}
-  \href{https://iasenovets.github.io/files/certificates_selected_en_public_ready_v2.pdf}
-       {\small Supporting certificates}
+    \skillcell{Cryptographic libraries:}{%
+      Lattigo, SEAL, TenSEAL, OpenFHE}
+    &
+    \skillcell{Languages:}{%
+      Russian --- native;
+      English --- \href{https://iasenovets.github.io/files/toefl_8cd5f4a2b8ec8f34da49ea0faeef43f1.pdf}{C1};
+      Chinese --- \href{https://admin.chinesetest.cn/queryScore.do?sid=c2tActR9Wb\%2704b861aefbdc5e9fd0b44afa717d08cbceb0720e582ce25f\%2724d7sWsQ5nVUQSwD}{HSK3}}
+  \end{tabularx}
 }
 
 \end{document}

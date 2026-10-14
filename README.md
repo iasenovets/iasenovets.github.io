@@ -6,7 +6,19 @@
 
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0008--0008--3746-brightgreen?logo=orcid)](https://orcid.org/0009-0008-0008-3746) [![Email](https://img.shields.io/badge/Email-L202420002%40stu.cqupt.edu.cn-red?logo=gmail)](mailto:L202420002@stu.cqupt.edu.cn) [![LinkedIn](https://img.shields.io/badge/LinkedIn-iasenovets-blue?logo=linkedin)](https://www.linkedin.com/in/iasenovets) [![TOEFL](https://img.shields.io/badge/TOEFL-C1-blue)](/files/toefl_8cd5f4a2b8ec8f34da49ea0faeef43f1.pdf) [![CV](https://img.shields.io/badge/CV-Download-blue?logo=adobeacrobatreader)](/files/cv/phd/main.pdf)
 
-**Research interests:** homomorphic encryption, private information retrieval, searchable encryption, private pattern matching, privacy-enhancing technologies, blockchain privacy.
+**Research interests:** privacy-enhancing technologies, private information retrieval, private pattern search, searchable encryption, homomorphic encryption, blockchain privacy.
+
+<details markdown="1">
+<summary><strong>Technical skills</strong></summary>
+
+- **Programming:** Go, Python, Rust, TypeScript, SQL, Bash, LaTeX
+- **Cryptography:** Lattice-based, symmetric-key, public-key
+- **Cryptographic libraries:** Lattigo, SEAL, TenSEAL, OpenFHE
+- **Systems and infrastructure:** Linux, Proxmox VE, VMware, Docker, Git, CI/CD, Nginx, Ansible, Airflow, S3
+- **Security engineering:** YARA, malware analysis (PowerShell/VBA), IoC/TTP analysis, MITRE ATT&CK
+- **Languages:** Russian (native); English (C1); Chinese (HSK3)
+
+</details>
 
 ## Education
 
@@ -14,12 +26,13 @@
 - **B.S. in Information Systems and Technologies**, Ukhta State Technical University — GPA: 4.45/5.0 — _Mar. 2022–Jun. 2024_
 - **B.S. studies in Information Systems and Technologies**, St. Petersburg State University of Telecommunications — _Sep. 2020–Mar. 2022 (transferred)_
 
-## Selected Publications
+## Selected Papers
 
-- [**Bringing Private Reads to Hyperledger Fabric via Private Information Retrieval**](https://arxiv.org/abs/2511.02656) — arXiv preprint (submitted to IEEE), Nov. 2025 · [Repository](https://github.com/iasenovets/2_2_HLF_CPIR)
+- [**Bringing Private Reads to Hyperledger Fabric via Private Information Retrieval**](https://arxiv.org/abs/2511.02656) — arXiv:2511.02656, 2025. Manuscript under review · [Repository](https://github.com/iasenovets/2_2_HLF_CPIR)
 - [**EVMK-SSE: Efficient and Verifiable Multi-Keyword Symmetric Searchable Encryption**](https://doi.org/10.1007/s44443-025-00405-8) — _Journal of King Saud University — Computer and Information Sciences_, Dec. 2025
 - [**MFCTIIF: Multi-Feed Cyber Threat Intelligence Integration Framework**](https://doi.org/10.60797/IRJ.2026.163.57) — _International Research Journal_, No. 1 (163), Jan. 2026
-- **TWAPPA-FRL: Trust-Weighted Privacy-Preserving Aggregation for Federated Reinforcement Learning in Collaborative Intrusion Detection** — Manuscript submitted to IEEE, 2026 · Equal contribution
+- [**TWAPPA-FRL: Trust-Weighted Privacy-Preserving Aggregation for Federated Reinforcement Learning in Collaborative Intrusion Detection**](https://github.com/hetiantian10/TWAPPA-FRL) — 2026. Manuscript under review · Equal contribution
+- [**CBPIR: Content-Based Private Information Retrieval over Structured Databases via Homomorphic Encryption**](https://github.com/iasenovets/content-based-pir) — 2026. Manuscript under review
 
 <!--
 ## Work Experience
@@ -40,7 +53,7 @@
   - **[TWAPPA-FRL](https://github.com/hetiantian10/TWAPPA-FRL):** Designed the architecture and implemented CKKS-based private aggregation of DQN model updates using TenSEAL, with IND-CPA-based client-update privacy under an honest-but-curious aggregator model and explicit leakage analysis.
   - **EVMK-SSE:** Analyzed the threat model with an HBC data owner and user and a malicious cloud server; reviewed the query-privacy argument in the real/ideal model, based on OT security and the pseudorandomness of CI-rOPRF/PRG under explicitly defined search- and access-pattern leakage.
   <!-- - **FPS/RFPS Private Pattern Search:** Implemented and validated a private pattern-search prototype, replacing the DFT-based matching transform under approximate-arithmetic CKKS with an NTT-based transform under exact-arithmetic BGV/BFV. -->
-  - **[PIR Protocol Reconstruction](/pir-schemes):** Reconstructed preprocessing models, query construction, server computation, and response expansion for PIR protocols including Piano, FrodoPIR/SimplePIR, XPIR, SealPIR, and OnionPIR.
+  - **[CBPIR](https://github.com/iasenovets/content-based-pir):** Designed and implemented a Rust prototype using OpenFHE, combining CKKS-based FPS/RFPS private pattern search, client-side match-to-record mapping, and BGV-based windowed CPIR for private multi-record retrieval, with explicit leakage and correctness analysis under an HBC server model.
 
 </details>
 
@@ -81,6 +94,7 @@
 Supporting documents: [Selected certificates with English summaries](/files/certificates_selected_en_public_ready_v2.pdf).
 
 - **Chinese Government Scholarship (CSC) for Graduate Studies** — Full scholarship for the entire M.S. program at CQUPT — _2024–2027_
+- **Enhanced State Academic Scholarship** — Awarded by USTU for outstanding academic excellence, with the enhanced amount based on documented achievements in the university’s index-based student rating system — _2023_
 - **Sber Student Accelerator Regional Demo Day** — Completed the Sber Student Accelerator with the [AcademAI team](https://academai.ru/) and participated in the North-Western District regional demo day — _2023_
 - **Winner, EdTech Project Competition** — Presented the [LLM-based educational platform](https://github.com/AcademAI/youknow) and won the competition organized by the MIPT Phystech School, the Fund for Development of Phystech Schools, and Startech.Base — _2023_
 - **MIPT & Sber Phystech GigaChat Challenge** — Developed the [LLM-based educational platform](https://github.com/AcademAI/youknow) using GigaChat and Kandinsky APIs within a 48-hour sprint — _2023_

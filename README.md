@@ -9,14 +9,13 @@
 **Research interests:** privacy-enhancing technologies, private information retrieval, private pattern search, searchable encryption, homomorphic encryption, blockchain privacy.
 
 <details markdown="1">
-<summary><strong>Technical skills</strong></summary>
+<summary><strong>Skills</strong></summary>
 
 - **Programming:** Go, Python, Rust, TypeScript, SQL, Bash, LaTeX
 - **Cryptography:** Lattice-based, symmetric-key, public-key
 - **Cryptographic libraries:** Lattigo, SEAL, TenSEAL, OpenFHE
 - **Systems and infrastructure:** Linux, Proxmox VE, VMware, Docker, Git, CI/CD, Nginx, Ansible, Airflow, S3
 - **Security engineering:** YARA, malware analysis (PowerShell/VBA), IoC/TTP analysis, MITRE ATT&CK
-- **Languages:** Russian (native); English (C1); Chinese (HSK3)
 
 </details>
 

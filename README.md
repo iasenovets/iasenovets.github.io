@@ -8,13 +8,7 @@
 
 **Research interests:** privacy-enhancing technologies, private information retrieval, private pattern search, searchable encryption, homomorphic encryption, blockchain privacy.
 
-**Skills:**
-
-- <details markdown="1"><summary>Programming</summary>Go, Python, Rust, TypeScript, SQL, Bash, LaTeX</details>
-- <details markdown="1"><summary>Cryptography</summary>Lattice-based, symmetric-key, public-key</details>
-- <details markdown="1"><summary>Cryptographic libraries</summary>Lattigo, SEAL, TenSEAL, OpenFHE</details>
-- <details markdown="1"><summary>Systems and infrastructure</summary>Linux, Proxmox VE, VMware, Docker, Git, CI/CD, Nginx, Ansible, Airflow, S3</details>
-- <details markdown="1"><summary>Security engineering</summary>YARA, malware analysis (PowerShell/VBA), IoC/TTP analysis, MITRE ATT&CK</details>
+**Skills:** Go, Python, Rust, TypeScript, SQL, Bash, LaTeX, lattice-based cryptography, symmetric-key cryptography, public-key cryptography, Lattigo, SEAL, TenSEAL, OpenFHE, Linux, Proxmox VE, VMware, Docker, Git, CI/CD, Nginx, Ansible, Airflow, S3, YARA, malware analysis (PowerShell/VBA), IoC/TTP analysis, MITRE ATT\&CK.
 
 <br>
 

@@ -10,8 +10,6 @@
 
 **Skills:** **Programming** — Go, Python, Rust, TypeScript, SQL, Bash, LaTeX · **Cryptography** — lattice-based, symmetric-key, public-key · **Cryptographic libraries** — Lattigo, SEAL, TenSEAL, OpenFHE · **Systems and infrastructure** — Linux, Proxmox VE, VMware, Docker, Git, CI/CD, Nginx, Ansible, Airflow, S3 · **Security engineering** — YARA, malware analysis (PowerShell/VBA), IoC/TTP analysis, MITRE ATT\&CK.
 
-<br>
-
 ## Education
 
 - **M.S. in Network & Information Security**, [CQUPT](https://www.cqupt.edu.cn/en/) — Supervisor: [Prof. Tang Fei](https://faculty.cqupt.edu.cn/tangfei/en/index.htm); Average mark: 95/100 — _Sep. 2024–Jul. 2027 (expected)_

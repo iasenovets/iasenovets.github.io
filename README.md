@@ -1,4 +1,4 @@
-# Information Security Research Engineer
+# Cryptography & Privacy Engineering
 
 [Home](./) <!-- · [Study Plan](./study-plan) --> · [PIR Notes](./pir-schemes) · [Public talks](./public-talks)
 

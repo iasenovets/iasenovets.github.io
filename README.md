@@ -4,7 +4,7 @@
 
 #### I'm a master's student in Network and Information Security at CQUPT, in Cryptography and Applications Research Group with 4+ years of experience in software and security engineering. I develop in Go, Python, Typescript, and I am currently learning Rust. I translate cryptographic protocols from papers into code, conduct security, correctness and leakage analysis, and develop systems for private data search, retrieval, and processing based on homomorphic encryption.
 
-[![ORCID](https://img.shields.io/badge/ORCID-0009--0008--0008--3746-brightgreen?logo=orcid)](https://orcid.org/0009-0008-0008-3746) [![Email](https://img.shields.io/badge/Email-L202420002%40stu.cqupt.edu.cn-red?logo=gmail)](mailto:L202420002@stu.cqupt.edu.cn) [![LinkedIn](https://img.shields.io/badge/LinkedIn-iasenovets-blue?logo=linkedin)](https://www.linkedin.com/in/iasenovets) [![CV](https://img.shields.io/badge/CV-Download-blue?logo=adobeacrobatreader)](/files/cv/phd/main.pdf)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0008--0008--3746-brightgreen?logo=orcid)](https://orcid.org/0009-0008-0008-3746) [![Email](https://img.shields.io/badge/Email-L202420002%40stu.cqupt.edu.cn-red?logo=gmail)](mailto:L202420002@stu.cqupt.edu.cn) [![LinkedIn](https://img.shields.io/badge/LinkedIn-iasenovets-blue?logo=linkedin)](https://www.linkedin.com/in/iasenovets) [![TOEFL](https://img.shields.io/badge/TOEFL-C1-blue)](/files/toefl_8cd5f4a2b8ec8f34da49ea0faeef43f1.pdf) [![CV](https://img.shields.io/badge/CV-Download-blue?logo=adobeacrobatreader)](/files/cv/phd/main.pdf)
 
 **Research interests:** privacy-enhancing technologies, private information retrieval, private pattern search, searchable encryption, homomorphic encryption, blockchain privacy.
 
@@ -20,7 +20,7 @@
 - [**EVMK-SSE: Efficient and Verifiable Multi-Keyword Symmetric Searchable Encryption**](https://doi.org/10.1007/s44443-025-00405-8) — _Journal of King Saud University — Computer and Information Sciences_, Dec. 2025
 - [**MFCTIIF: Multi-Feed Cyber Threat Intelligence Integration Framework**](https://doi.org/10.60797/IRJ.2026.163.57) — _International Research Journal_, No. 1 (163), Jan. 2026
 - [**TWAPPA-FRL: Trust-Weighted Privacy-Preserving Aggregation for Federated Reinforcement Learning in Collaborative Intrusion Detection**](https://github.com/hetiantian10/TWAPPA-FRL) — 2026. Manuscript under review · Equal contribution
-- [**CBPIR: Content-Based Private Information Retrieval over Structured Databases via Homomorphic Encryption**](https://github.com/iasenovets/content-based-pir) — 2026. Manuscript under review
+- [**CBPIR: Content-Based Private Information Retrieval over Structured Databases via Homomorphic Encryption**](https://github.com/iasenovets/content-based-pir) — Accepted at NSS-SocialSec 2026
 
 <!--
 ## Work Experience

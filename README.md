@@ -16,11 +16,11 @@
 
 ## Selected Papers
 
-- [**Bringing Private Reads to Hyperledger Fabric via Private Information Retrieval**](https://arxiv.org/abs/2511.02656) — arXiv:2511.02656, 2025. Manuscript under review · [Repository](https://github.com/iasenovets/2_2_HLF_CPIR)
-- [**EVMK-SSE: Efficient and Verifiable Multi-Keyword Symmetric Searchable Encryption**](https://doi.org/10.1007/s44443-025-00405-8) — _Journal of King Saud University — Computer and Information Sciences_, Dec. 2025
-- [**MFCTIIF: Multi-Feed Cyber Threat Intelligence Integration Framework**](https://doi.org/10.60797/IRJ.2026.163.57) — _International Research Journal_, No. 1 (163), Jan. 2026
-- [**TWAPPA-FRL: Trust-Weighted Privacy-Preserving Aggregation for Federated Reinforcement Learning in Collaborative Intrusion Detection**](https://github.com/hetiantian10/TWAPPA-FRL) — 2026. Manuscript under review · Equal contribution
-- [**CBPIR: Content-Based Private Information Retrieval over Structured Databases via Homomorphic Encryption**](https://github.com/iasenovets/content-based-pir) — Accepted at NSS-SocialSec 2026
+- <u>Artur Iasenovets</u>, Fei Tang, H. Zhu, P. Wang, and L. Liu. **Bringing Private Reads to Hyperledger Fabric via Private Information Retrieval** — arXiv:2511.02656, 2025. Manuscript under review · [Repository](https://github.com/iasenovets/2_2_HLF_CPIR) · Preprint DOI: [10.48550/arXiv.2511.02656](https://doi.org/10.48550/arXiv.2511.02656)
+- H. Zhu, F. Tang, W. Qin, J. Shan, P. Wang, and <u>Artur Iasenovets</u>. **EVMK-SSE: Efficient and Verifiable Multi-Keyword Symmetric Searchable Encryption** — _Journal of King Saud University — Computer and Information Sciences_, Dec. 2025 · DOI: [10.1007/s44443-025-00405-8](https://doi.org/10.1007/s44443-025-00405-8)
+- <u>Artur Iasenovets</u> and Fei Tang. **MFCTIIF: Multi-Feed Cyber Threat Intelligence Integration Framework** — _International Research Journal_, No. 1 (163), Jan. 2026 · DOI: [10.60797/IRJ.2026.163.57](https://doi.org/10.60797/IRJ.2026.163.57)
+- Piyumi M. S. Rajapaksha\*, <u>Artur Iasenovets\*</u>, Yinxue Yi, and Fei Tang. **TWAPPA-FRL: Trust-Weighted Privacy-Preserving Aggregation for Federated Reinforcement Learning in Collaborative Intrusion Detection** — 2026. Manuscript under review · \*Equal contribution · [Repository](https://github.com/hetiantian10/TWAPPA-FRL) · DOI pending
+- <u>Artur Iasenovets</u> and Fei Tang. **CBPIR: Content-Based Private Information Retrieval over Structured Databases via Homomorphic Encryption** — Accepted at NSS-SocialSec 2026 · [Repository](https://github.com/iasenovets/content-based-pir) · DOI pending
 
 <!--
 ## Work Experience

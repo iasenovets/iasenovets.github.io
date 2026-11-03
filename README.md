@@ -1,4 +1,4 @@
-# Cryptography & Privacy Engineering
+<h1 style="font-size: 1.5em;">Applied Cryptography &amp; Privacy Engineering</h1>
 
 [Home](./) <!-- · [Study Plan](./study-plan) --> · [PIR Notes](./pir-schemes) · [Public talks](./public-talks)
 

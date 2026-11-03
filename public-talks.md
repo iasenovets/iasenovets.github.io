@@ -8,20 +8,21 @@ title: Public talks
 [Home](./) · [PIR Notes](./pir-schemes) · [Public talks](./public-talks)
 
 <details markdown="1">
-<summary><strong>Featured LinkedIn post</strong></summary>
+<summary><strong>NSS-SocialSec 2026 — _November 2026_</strong></summary>
 
-<iframe
-  src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7523267807296499712"
-  height="900"
-  width="504"
-  style="display: block; max-width: 100%; margin: 0 auto;"
-  frameborder="0"
-  allowfullscreen=""
-  loading="lazy"
-  title="Embedded LinkedIn post">
-</iframe>
+Presented our paper, “CBPIR: Content-Based Private Information Retrieval over Structured Databases via Homomorphic Encryption,” in Hangzhou on 1 November 2026.
 
-[Open this post on LinkedIn](https://www.linkedin.com/feed/update/urn:li:ugcPost:7523267807296499712)
+The paper explores the substring-PIR direction suggested by Feer: in some systems, a client may not know the index of the record containing a text pattern of interest. We extend this idea to retrieve an associated payload for a matching record. Each record is a tuple of an identifier, searchable text, and payload; for example, the searchable text could be document metadata and the payload a PDF.
+
+[Conference](https://lnkd.in/dgTz-rjs) · [Feer's work](https://lnkd.in/dgeHtYhV) · [LinkedIn post](https://www.linkedin.com/feed/update/urn:li:ugcPost:7523267807296499712)
+
+[![Presenting CBPIR at NSS-SocialSec 2026](/files/public_talks/nss-socialsec26/Weixin%20Image_2026-11-03_130339_221.jpg)](/files/public_talks/nss-socialsec26/Weixin%20Image_2026-11-03_130339_221.jpg)
+
+*Presenting CBPIR at NSS-SocialSec 2026 in Hangzhou.*
+
+[![At NSS-SocialSec 2026 in Hangzhou](/files/public_talks/nss-socialsec26/Weixin%20Image_2026-11-03_130328_314.jpg)](/files/public_talks/nss-socialsec26/Weixin%20Image_2026-11-03_130328_314.jpg)
+
+*NSS-SocialSec 2026 in Hangzhou.*
 </details>
 
 <details markdown="1">
